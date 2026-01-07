@@ -37,8 +37,6 @@ Not all statements you'll read are 100% true—the devil is in the details, and 
 So I've taken the role of a "crypto" enthusiast to keep you engaged. The **technical details**—bits, algorithms, cryptography, consensus mechanisms—are accurate, and you can trust those. But the **social implications**—revolutionary potential, adoption timelines, societal impact—are simplified, sometimes exaggerated, to maintain momentum.
 
 **Chapter 18 will demolish this propaganda with a comprehensive reality check.**
-// -sus- wtf, flamingo breaking ball this was xd
-Think of it like a baseball pitcher's breaking ball:
 
 ![Breaking Ball](image-1.png)
 
