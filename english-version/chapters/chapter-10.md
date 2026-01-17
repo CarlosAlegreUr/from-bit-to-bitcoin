@@ -130,9 +130,9 @@ Let's see how Proof-of-Work solves our problems:
 
 If anything is invalid, everyone rejects the block, all the new transactions, and does not update (synchronize) their database. The cheater wasted all that computational effort for nothing.
 
-**4. How often does this happen?** Bitcoin adjusts the puzzle difficulty so a new block is found approximately every 10 minutes. If more people join and computing power increases, the puzzle gets harder (require more zeros). If people leave and computing power decreases, the puzzle gets easier (require fewer zeros). [FACT CHECK: "approximately every 10 minutes" and "require more zeros" - The 10-minute target is correct per Bitcoin protocol, but difficulty adjustment is more nuanced than just "more zeros" - it involves adjusting the target hash value]
+**4. How often does this happen?** Bitcoin adjusts a **target hash value** so a new block is found approximately every 10 minutes. On screen, this often looks like requiring hashes with **more leading zeros**. If more people join and computing power increases, the target gets lower (harder to meet). If people leave and computing power decreases, the target gets higher (easier to meet).
 
-The reason you can "fix" the time it takes to mine (create) a block is because you can do some statistics to compute the expected time to find a solution based on the total computational power of the network. By adjusting the difficulty of the puzzle every two weeks (2016 blocks), Bitcoin ensures that, on average, a new block is found every 10 minutes. [FACT CHECK: "every two weeks (2016 blocks)" - Verify this is accurate; 2016 blocks at 10 minutes each would be 14 days, so this appears correct] If you are interested in the math behind it, I encourage you to research online and dive deep on your own.
+The reason you can "fix" the time it takes to mine (create) a block is because you can do some statistics to compute the expected time to find a solution based on the total computational power of the network. By adjusting the difficulty of the puzzle every 2016 blocks (approximately two weeks), Bitcoin ensures that, on average, a new block is found every 10 minutes. If you are interested in the math behind it, I encourage you to research online and dive deep on your own.
 
 For now, let's demystify some terminology:
 - **Mining:** The process of trying to solve the puzzle (running computations). A proof of effort to earn the right to write the next bunch of data on the distributed database you all share in the network.
@@ -147,7 +147,7 @@ Wait—why would anyone spend electricity and money on expensive computers to so
 **Because there's a reward.**
 
 Whoever solves the puzzle gets to:
-1. **Create new coins** - Currently 3.125 Bitcoin per block (this halves every 4 years, eventually reaching zero around the year 2140, if the consensus does not change). [FACT CHECK: "Currently 3.125 Bitcoin per block" - Verify current block reward; 3.125 BTC became the reward after the April 2024 halving. "reaching zero around the year 2140" - This is the commonly cited estimate]
+1. **Create new coins** - Currently 3.125 Bitcoin per block (this halves every 4 years, eventually reaching zero around the year 2140, if the consensus does not change).
 2. **Collect transaction fees** - Users can attach small fees to their transactions. The miner who includes them in a block collects all those fees.
 
 **This is called mining.** Like gold miners expending effort to extract gold from the ground, Bitcoin miners expend computational effort to earn Bitcoin. And, as Bitcoin shares a good bunch of properties gold has, I guess that is why Satoshi Nakamoto called it "mining". But this is just the author's speculation.
@@ -165,7 +165,7 @@ But wait... they get paid... in what? In bits? Indeed. In bitcoins! But no one c
 
 A group of people, likely computer science and anarchist "nerds" (said with love by the author, who is a nerd himself), decided to just spend their electricity and computing power on this "crazy experiment" of a decentralized digital currency. They believed in the idea, or they were just nerds having fun, and they were willing to invest resources into it.
 
-Some people speculate it was the CIA or any other United States government agency trying to create programmable money to control the population. But as said, Satoshi Nakamoto disappeared in 2010, in the sense that he stopped making transactions, and no concrete evidence has ever been found to support any theory about his/her/their identity or affiliation. [FACT CHECK: "Satoshi Nakamoto disappeared in 2010" - Satoshi's last known public communication was in December 2010, but verify the exact timeline]
+Some people speculate it was the CIA or any other United States government agency trying to create programmable money to control the population. But as said, Satoshi Nakamoto disappeared from public view—his **last public forum post was in December 2010**, and his **last known private email was in April 2011**—and no concrete evidence has ever been found to support any theory about his/her/their identity or affiliation.
 
 The author leans towards the nerds playing around—maybe CIA nerds on their weekends? Who knows. The thing is that the party went out of control, and slowly but surely, more people agreed on this digital coordination and consensus and started actually trading these bits with fiat money. And... boom! A new asset class was born.
 

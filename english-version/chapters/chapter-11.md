@@ -39,7 +39,7 @@ Both blocks are valid—both miners followed the rules, and both completed the P
 
 **Now the nodes have to decide: which block should they accept?**
 
-Some nodes receive Block 101a first and update their databases accordingly, while other nodes receive Block 101b first and update to that version instead. **The databases are now de-synchronized.** Half the network thinks one miner received the reward, and the other half thinks a different miner did.
+Some nodes receive Block `101a` first and update their databases accordingly, while other nodes receive Block `101b` first and update to that version instead. **The databases are now de-synchronized.** Half the network thinks one miner received the reward, and the other half thinks a different miner did.
 
 ## The Impossible Choice
 
@@ -108,7 +108,9 @@ The transactions from Block 101b that weren't included in Block 101a go back to 
 
 Okay cool, we solved it! We can now move on and keep synchronizing the database even when there are ties.
 
-But what if they tie again, and again, and again? In general terms, what if the consensus consistently gives us two valid winners worthy of the right to write to the database? If we want to create a robust system, we can't just hope for the best and assume this will never happen. So...
+But what if they tie again, and again, and again? In general terms, what if the consensus consistently gives us two valid winners worthy of the right to write to the database? What if someone tries to trick us sending fake blocks in the future that look like they have more work on them?
+
+If we want to create a robust system, we can't just hope for the best and assume this will never happen.
 
 ## For How Long Do We Keep Doing This?
 
@@ -150,9 +152,9 @@ Finality is a technical term we use to define how much time has to pass before a
 
 The time to finality depends on the consensus you're using in your consensus-based database network. In Bitcoin, finality is probabilistic: the more blocks built on top of a given block, the more secure that block becomes.
 
-After 6 blocks (about 1 hour), the probability of rewriting that block becomes astronomically low, so for practical purposes, we consider it final. [FACT CHECK: 6 blocks = ~1 hour for Bitcoin finality - verify this is still the standard recommendation]
+After 6 blocks (about 1 hour), the probability of rewriting that block becomes astronomically low, so for practical purposes, we consider it final.
 
-In other CDNs, like Ethereum, finality is achieved through different mechanisms. In Ethereum's case, it takes about 12-15 minutes to consider a block final. [FACT CHECK: Ethereum finality time of 12-15 minutes - verify post-merge finality timing]
+In other CDNs, like Ethereum, finality is achieved through different mechanisms. In Ethereum's case, it takes about 12-15 minutes to consider a block final.
 
 This means that in a CDN, once finality is reached, no one will ever be able to change that data—even if they have 51% of the computational power in Bitcoin's case.
 
@@ -170,11 +172,11 @@ The term "blockchain network" has a similar problem: it's too technical and not 
 
 Being honest with myself, "consensus-based database network" is also too technical for most people. But at least it describes what these systems actually do, which is more important.
 
-Normal people understand the word "data" pretty well—after reading this book, you understand it even better. People also understand "synchronization." So here I propose calling this entire class of technology **Datasync Technology** instead of Blockchain Technology.
+Normal people understand the word "data" pretty well—after reading this book, you understand it even better. People also understand "synchronization" and "decentralization". So here I propose calling this entire class of technology **Decentralized Datasync Technology** instead of Blockchain Technology.
 
 To be honest, you won't learn any new functionality from here on in this chapter.
 
-The blockchain data structure is just a way of storing the counter—and also the transitions of data in our database's history—in a tamper-evident way. This ensures everyone knows which iteration we're on, which one comes next, which one came before, and that no one can cheat about any of it.
+The blockchain data structure is just a secure way of storing the counter—and also the transitions of data in our database's history—in a tamper-evident way. This ensures everyone knows which iteration we're on, which one comes next, which one came before, and that no one can cheat about any of it.
 
 During the rest of the chapter I'll explain intuitively how this works, but this is more of a computer science topic than an "understand the usage of new technologies" one—which is what this book tries to focus on mainly.
 
@@ -184,9 +186,9 @@ I'm trying to explain as few technical details as possible while still giving yo
 
 ## Optional: For the Curious (You Can Skip This)
 
-**If you're more interested in the societal and practical implications of consensus-based database networks than in the computer science behind them, feel free to skip to the next chapter.**
+**If you're more interested in the societal and practical implications of consensus-based database networks than in the computer science behind them, feel free to skip the next chapter and continue in chapter 13.**
 
-The rest of this chapter dives into the technical details of how the blockchain data structure works—it's fascinating, but not essential for understanding the bigger picture of what these systems enable.
+The following chapter dives into the technical details of how the blockchain data structure works—it's fascinating, but not essential for understanding the bigger picture of what these systems enable.
 
 If you stay, we'll explore data structures, memory, pointers, linked lists, and finally put it all together to see exactly how a blockchain prevents cheating.
 
@@ -194,6 +196,6 @@ If you stay, we'll explore data structures, memory, pointers, linked lists, and 
 
 ---
 
-**Key Insight:** When two miners solve puzzles simultaneously, we can't choose one without breaking consensus rules. The solution: let both chains compete, and accept whichever gets extended first (the longest chain rule). To prevent cheating about which iteration we're on, we use the blockchain data structure—a tamper-evident way of storing history. This enables a system where the past cannot be silently rewritten, and everyone can verify they're on the same database iteration. We call this entire class of technology **Datasync Technology**—systems that synchronize data across thousands of computers without central control.
+**Key Insight:** When two miners solve puzzles simultaneously, we can't choose one without breaking consensus rules. The solution: let both chains compete, and accept whichever gets extended first (the longest chain rule). To prevent cheating about which iteration we're on, we use the blockchain data structure—a tamper-evident way of storing history. This enables a system where the past cannot be silently rewritten, and everyone can verify they're on the same database iteration. We call this entire class of technology **Decentralized Datasync Technology**—systems that synchronize data across thousands of computers without central control.
 
-Next, we'll explore what these systems enable at a societal level—how they change power dynamics, enable new forms of coordination, and why this matters for the future. The foundation is complete. Now we understand the implications.
+Next, we'll explore what these systems enable at a societal level—how they change power dynamics, enable new forms of coordination, and why this matters for the future. The foundation is complete. Now let's understand the implications.

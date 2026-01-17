@@ -88,9 +88,11 @@ Good luck reversing that without knowing p and q!
 Even computers take long to guess and check all possible combinations.
 ```
 
-**With 617-digit primes (which Bitcoin and modern cryptography use), figuring out the original numbers becomes essentially impossible with current technology.** [FACT CHECK: "617-digit primes" - Bitcoin uses elliptic curve cryptography (secp256k1), not RSA. The 617-digit figure may be outdated or refer to RSA specifically. Verify the exact key sizes used in Bitcoin's cryptographic scheme.] Even the fastest supercomputers would take longer than the age of the universe to find such numbers.
+**With very large primes** (for example, 617-digit primes used in 2048-bit RSA keys commonly used in many traditional systems), **figuring out the original numbers becomes essentially impossible with current technology.** Even the fastest supercomputers would take longer than the age of the universe to find such numbers.
 
-This asymmetry—easy to multiply, hard to figure out the original numbers—is the foundation of asymmetric encryption.
+**Important note:** Bitcoin doesn't actually use RSA or large prime factorization. Bitcoin uses **elliptic-curve cryptography (specifically secp256k1)**, which relies on 256-bit numbers (about 77 decimal digits)—a different type of one-way function based on elliptic curve mathematics rather than prime factorization. Both RSA and elliptic curve cryptography provide strong security through different mathematical problems that are easy in one direction but hard to reverse.
+
+This asymmetry—easy to compute, hard to reverse—is the foundation of all asymmetric encryption, whether based on prime factorization (RSA) or elliptic curves (Bitcoin).
 
 **Why prime numbers?** Because these numbers can only be divided by themselves and 1, leaving 0 as a remainder. This property is what makes the multiplication easy but the reverse operation hard. Don't worry too much about the mathematical details—if you're feeling confused about the prime number thing, take your time if you want, but this is not essential. You can just accept that there are some mathematical functions that are easy to compute one way but hard to reverse.
 
@@ -189,7 +191,7 @@ Alice and Bob never had to meet. They never had to share a secret. Bob just publ
 
 ## The Real Magic: RSA Encryption
 
-The most famous asymmetric encryption algorithm is **RSA** (named after its inventors: Rivest, Shamir, and Adleman, 1977). [FACT CHECK: "RSA invented in 1977" - Verify this date. RSA was published in 1977, but the exact timeline of invention vs. publication should be confirmed.]
+The most famous asymmetric encryption algorithm is **RSA** (named after its inventors: Rivest, Shamir, and Adleman), which was invented in **1977** and published in **1978**.
 
 For the curious ones who want to dig deeper into how RSA actually works mathematically, there are many resources online. But for our purposes, just know that it's a widely used algorithm that implements the one-way function property we've been discussing.
 

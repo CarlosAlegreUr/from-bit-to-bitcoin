@@ -44,29 +44,31 @@ Bitcoin has the 8 properties of money: scarcity, verifiability, divisibility, et
 
 Let's revisit those 8 properties with a balanced yin-yang perspective:
 
-**1. Scarcity:** ✅ **Clear success.** 21 million cap enforced by code and social consensus.
+**1. Hard to control scarcity:** ✅ **Clear success.** 21 million cap enforced by code and social consensus.
 
 **2. Verifiability:** ✅ **Clear success.** Anyone can verify transactions mathematically.
 
 **3. No double-spending:** ✅ **Clear success.** Blockchain's core innovation prevents this.
 
 **4. Transferability:** ⚠️ **Mixed reality.**
-- ☯️ **Yin (challenges):** Requires internet, electricity, and technical knowledge. Not as simple as handing someone cash. Geographic barriers remain (internet access, regulatory restrictions).
-- ☯️ **Yang (potential):** Technical complexity is actively being reduced through Lightning Network, better wallets, and improved UX. This is not the hardest problem the industry has solved—it's solvable with time and engineering effort. Furthermore, Bitcoin is just one specific CDN; the benefits of the technology do not vanish because one specific implementation struggles. It would be like saying that if Toyota goes bankrupt, the whole automobile industry will collapse.
+- ☯️ **Yin (challenges):** Eventually requires internet, electricity, and technical knowledge. Not as simple as handing someone cash. Geographic barriers remain (internet access, regulatory restrictions).
+- ☯️ **Yang (potential):** Technical complexity is actively being reduced through Lightning Network, better wallets, and improved UX (user experience). This is not the hardest problem the industry has solved—it's solvable with time and engineering effort. Furthermore, Bitcoin is just one specific CDN; the benefits of the technology do not vanish because one specific implementation struggles. It would be like saying that if Toyota goes bankrupt, the whole automobile industry will collapse.
 
 **5. Ownership:** ⚠️ **Conditional and complex.**
-- ☯️ **Yin:** You own Bitcoin IF you control private keys, understand security, don't lose seed phrases, and don't fall for scams. [FACT CHECK: 20-30% of Bitcoin is estimated permanently lost - widely cited but methodology unclear] Even if you have gold in your home but your house is easily burgled, do you really "own" it?
+- ☯️ **Yin:** You own Bitcoin IF you control private keys, understand security, don't lose seed phrases, and don't fall for scams. Analysts estimate that roughly **10–20%** of all bitcoin may be permanently lost (recent analyses suggest between 2.3–4 million BTC lost). Even if you have gold in your home but your house is easily burgled, do you really "own" it?
 - ☯️ **Yang:** True ownership without intermediaries is possible for those willing to learn. No bank or government can seize properly-secured Bitcoin. Effective self-sovereignty has a learning curve, but it's genuinely achievable—it is not even close to learning rocket science.
 
 **6. Fungibility:** ⚠️ **Theoretical yes, practical challenges.**
 - ☯️ **Yin:** Coins from hacks/crimes ("tainted coins") can trade at discounts. Address tracking links transaction histories. Some exchanges reject "dirty" Bitcoin. Privacy is harder than it seems.
-- ☯️ **Yang:** Value is value. Even "black market" fiat money gets laundered into clean currency—ethical claims on money are as fragile as human ethics itself. Tainted BTC will likely, as has always happened throughout history, eventually return to licit transactions through modern forms of laundering.
+- ☯️ **Yang:** Value is value. Even "black market" fiat money gets laundered into clean currency—ethical claims on money are as fragile as humans' ethics themselves. Tainted BTC will likely, as has always happened throughout history, eventually will likely return to licit transactions through modern forms of laundering.
 
 **7. Divisibility:** ✅ **Clear success.** Down to satoshis (0.00000001 BTC)—far better divisibility than gold or cash.
 
 **8. Durability:** ⚠️ **Context-dependent.**
-- ☯️ **Yin:** Bitcoin requires active infrastructure (nodes, internet, electricity). In civilization collapse or internet failure, Bitcoin stops working. Gold is more durable in cataclysmic events. Bitcoin can't function offline like some programmable CDNs (Ethereum can temporarily work via signature exchanges—the "checks" analogy from earlier chapters).
+- ☯️ **Yin:** Bitcoin requires active infrastructure (nodes, internet, electricity). In civilization collapse or internet failure, Bitcoin stops working. Gold is more durable in cataclysmic events. Bitcoin can't function offline like some programmable CDNs (Ethereum can temporarily work via signature exchanges even without internet—the "checks" analogy from earlier chapters).
 - ☯️ **Yang:** In doomsday scenarios, will we really care about gold either? If peace returns, databases with BTC data could be restored and the network restarted. For 99.99% of realistic scenarios (not apocalypse), Bitcoin's digital durability (copies everywhere) is actually superior to physical assets (which can be destroyed, seized, or degraded).
+
+**9. Extra: Portability** ✅ Physically moving gold is hard, or big piles of cash. However, any amount of bitcoin can be moved with you with a small paper or even nothing at all if you manage to remember 12 words in order inside your brain.
 
 ---
 
@@ -78,7 +80,7 @@ Let's revisit those 8 properties with a balanced yin-yang perspective:
 
 **10. Medium of Exchange:** ⚠️ **Limited today, situationally useful.**
 - ☯️ **Yin:** Very few merchants accept Bitcoin. Those who do often convert immediately to fiat. Volatility makes it terrible for daily transactions in stable economies.
-- ☯️ **Yang:** In countries with hyperinflationary currencies (Venezuela, Argentina, Zimbabwe), Bitcoin is better than local money. Besides, even if not "cash," it can be used gold-like as a store and transfer of value. Even if it's not a realistic everyday spending money for most countries, it's still an economically useful asset.
+- ☯️ **Yang:** In countries with hyperinflationary currencies (Venezuela, Argentina, Zimbabwe), Bitcoin is better than local money. Besides, even if not "cash," it can be used gold-like as a store and transfer of value. Even if it's not a realistic everyday money for most countries, it's still an economically useful asset.
 
 **11. Store of Value:** ⚠️ **Volatile but improving.**
 - ☯️ **Yin:** Bitcoin has had multiple 70-80% drawdowns. It's more like a speculative tech stock than "digital gold"—at least for now.
@@ -88,9 +90,9 @@ Let's revisit those 8 properties with a balanced yin-yang perspective:
 
 ### **The Balanced Truth**
 
-**Yin:** Today, Bitcoin is primarily used as a **speculative investment**, not as money. Most economists and central banks do not consider it money in the functional sense.
+**☯️ Yin:** Today, Bitcoin is primarily used as a **speculative investment**, not as money. Most economists and central banks do not consider it money, at least they don't say it publicly, in the functional sense.
 
-**Yang:** This is ultimately a matter of adoption and choice. If people agree on gold, they can also agree on Bitcoin—there is nothing fundamentally different about that mechanic. In fact, if we had a high liquidity Bitcoin market, its properties make it better and more comfortable to use than gold. Bitcoin is just one specific CDN implementation; CDNs (datasync technologies) are far deeper and more useful than just Bitcoin. As the saying goes: "Bitcoin is not crypto, and crypto is not Bitcoin." The technology has broader applications, and Bitcoin's current limitations don't define the entire field's potential.
+**☯️ Yang:** This is ultimately a matter of adoption and choice. If people agree on gold, they can also agree on Bitcoin—there is nothing fundamentally different about that mechanic. In fact, if we had a high liquidity Bitcoin market, its properties make it better and more comfortable to use than gold. Bitcoin is just one specific CDN implementation; CDNs (consensus-based database networks) are far deeper and more useful than just Bitcoin. As the saying goes: "Bitcoin is not crypto, and crypto is not Bitcoin." The technology has broader applications, and Bitcoin's current limitations don't define the entire field's potential.
 
 ---
 
@@ -110,7 +112,7 @@ Bitcoin is decentralized. No central authority.
 
 ### **Mining concentration:**
 
-- ☯️ **Yin:** [FACT CHECK: Top 4 mining pools control ~60% of Bitcoin's hashrate - verify current distribution] Top 10 pools control ~90%. If these pools colluded (or were coerced by governments), they could censor transactions, double-spend, or halt the network. This is a real centralization risk.
+- ☯️ **Yin:** Recent pool statistics show the top 4 Bitcoin mining pools control **on the order of 60–70% of hashrate**, though this fluctuates (for example: Foundry ~32%, AntPool ~19%, F2Pool ~8%, SpiderPool ~6%). Top 10 pools control ~90%. If these pools colluded (or were coerced by governments), they could censor transactions, double-spend, or halt the network. This is a real centralization risk.
 
 - ☯️ **Yang:** Any miner can leave an unfair pool and join another. In practice, switching costs, loyalty, and incentives keep miners concentrated—but the option exists. The path to further decentralization is clear: more pools and more miners. Running a full node costs approximately $500-800 in hardware plus electricity. If you have capital, you can become a miner or gather investors to create a new pool. A decentralized oligarchy of many small groups is structurally better than a dictatorship. And crucially: an oligarchy of miners is not the end of the story. What Bitcoin *is* gets ultimately decided by ALL nodes, even the cheap ones. A more decentralized mining landscape with more oligarchies strengthens the network against external attacks.
 
@@ -136,11 +138,13 @@ Bitcoin is decentralized. No central authority.
 
 Validators are the analogous to miners in the CDN of Ethereum. They do a thing called staking to prove their worth for writing to the database.
 
-- ☯️ **Yin:** [FACT CHECK: Lido alone controls ~30% of staked ETH - verify current percentage] Post-merge, major staking providers (Lido, Coinbase, Kraken) control the majority of staked ETH. Validator sets are even more concentrated than Bitcoin mining. One entity controlling nearly a third is concerning. The iron law of oligarchies keeps appearing—can we actually create a CDN that is truly decentralized?
+- ☯️ **Yin:** Post-merge, major staking providers (Lido, Coinbase, Kraken) control the majority of staked ETH. Lido historically peaked around **30–32%** of staked ETH and as of late 2025/early 2026 sits in the **mid-20s%** range (around **24–30%**). Validator sets are even more concentrated than Bitcoin mining. One entity controlling nearly a third is concerning. The iron law of oligarchies keeps appearing—can we actually create a CDN that is truly decentralized?
 
 - ☯️ **Yang:** ETH is just another CDN, not Bitcoin—so again this doesn't condemn the entire field. To defend ETH specifically: Lido is a way to *aggregate* individual stakers' ETH—similar to mining pools but actually easier to leave. Individuals stake *through* Lido; they can withdraw and switch to other providers like Rocketpool. Developing staking software for Ethereum is relatively cheap, and moving funds around for this use case is absurdly cheap onchain. The Ethereum community actively advertises decentralization and warns when certain clients or staking platforms become too dominant—the community cares and responds. People who stake already demonstrate high knowledge and care—they're more likely to act responsibly. The ecosystem is self-correcting through social pressure and education.
 
-![Ethereum client diversity warning](image.png)
+![Ethereum client diversity warning](diversity.png)
+
+In the image above we can see how a software that runs Ethereum, Lighthouse, is becoming too predominant and there are warnings to stop using it as much. As a curious fact, the author works for the very same compnay that develops the Lighthouse software.
 
 Furthermore, regarding oligarchies, that is where the magic of CDNs comes in. As we said, with Bitcoin, an oligarchy of miners does not destroy the value of the network because ultimately the data is the final source of truth, and that is distributed across all nodes—which are far cheaper to run and actually very decentralized.
 
@@ -150,7 +154,7 @@ Furthermore, regarding oligarchies, that is where the magic of CDNs comes in. As
 
 - ☯️ **Yin:** Small groups of core developers control protocol evolution. Bitcoin Core team and Ethereum Foundation wield enormous influence. Users technically can reject updates, but practically they follow developer recommendations. This creates "benevolent dictator" dynamics.
 
-- ☯️ **Yang:** Users CAN reject updates—this isn't theoretical. Developers who care about the code can increase in number; it's open source. If people start caring more, more developers will join and write alternative implementations to decrease dependency. This concern is most valid while "crypto" isn't widely adopted. But if/when adoption grows, it will make sense for nations to use taxpayer money to pay excellent developers to write their own Bitcoin/Ethereum clients, minimizing dependency on any single team. If the community grows with awareness, this risk will be significantly mitigated. And crucially: this doesn't break CDNs right now. If something fails, battle-tested software that's been running for years is already available. The system is resilient to any single team disappearing.
+- ☯️ **Yang:** Users CAN reject updates—this isn't theoretical. Developers who care about the code can increase in number; it's open source. If people start caring more, more developers will join and write alternative implementations to decrease dependency. This concern is most valid while "crypto" isn't widely adopted. But if/when adoption grows, it will make sense for nations to use taxpayer money to pay excellent developers to write their own Bitcoin/Ethereum clients, minimizing dependency on any single team. If the community grows with awareness, this risk will be significantly mitigated. And crucially: this doesn't break CDNs right now. If something fails, battle-tested software that's been running for years is already available. Nodes can just quickly switch to an older version or other software. The system is resilient to any single team disappearing.
 
 ---
 
@@ -179,8 +183,8 @@ The system is **way less centralized than a bank**, but **far from being at the 
 
 **The scale:**
 - Bitcoin uses more electricity than entire countries (comparable to Argentina, Netherlands)
-- [FACT CHECK: Annual energy consumption ~150 TWh - verify current figures]
-- [FACT CHECK: Single Bitcoin transaction ~700 kWh - methodology varies widely; some estimates are much lower]
+- The Bitcoin network consumes on the order of **140–170 TWh per year** (recent estimates cluster around this range; ~150 TWh is a reasonable mid-range figure)
+- Estimates for energy per **on-chain** Bitcoin transaction vary widely, but many put it in the **hundreds to over a thousand kWh** range (e.g., 700–1,400+ kWh depending on methodology)
 - Carbon footprint depends on energy mix (often fossil fuels in regions with cheap power)
 
 **The price-hashrate feedback loop:**
@@ -215,7 +219,7 @@ The main issue—carbon-emitting energy sources—is a civilization-wide challen
 
 **E-waste is a broader technological challenge too:**
 
-Hardware obsolescence isn't unique to Bitcoin. Old ASICs can be repurposed for other compute tasks: personal computers, gaming PCs, training local AI models. Yes, this is a concern—but it's part of the larger e-waste problem. How many Apple phones are thrown away each year? How many new iPhone versions launch with questionable improvements? E-waste is a real concern across all technology, not just Bitcoin. We should address it systematically, not single out one technology.
+Hardware obsolescence isn't unique to Bitcoin. Old ASICs can be repurposed for other compute tasks: personal computers, gaming PCs, training local AI models. Yes, this is a concern—but it's part of the larger e-waste problem. How many Apple phones are thrown away each year? How many new iPhone versions launch with questionable improvements? E-waste is a real concern across all technology, not just Bitcoin. We should address it systematically, not mention just one technology.
 
 **Against the speculation criticism:**
 
@@ -227,13 +231,13 @@ You might say, regarding the CO2 emissions and other monetary costs... okay, pla
 
 Are Bitcoin's costs worth the benefit? We'll only see when people use it at its fullest potential—as a new and better form of digital gold, as a neutral settlement layer for international agreements. Programmable international coordination can bring enormous value. We can even say, without exaggeration, that better coordination mechanisms can save lives (preventing conflicts through economic interdependence). Is every human life saved worth the cost of running CDNs?
 
-The problem with assessing the cost-benefit of CDNs like Bitcoin is that we would be trying to measure the value of generating a revolution in how we trust—and that is unmeasurable because the way people, entities, and nations talk to each other would fundamentally change. The potential is clearly enormous and hard to quantify.
+The problem with assessing the cost-benefit of CDNs like Bitcoin is that we would be trying to measure the value of generating a revolution in how we trust—and that is unmeasurable because the way people, entities, and nations talk to each other would fundamentally change. The potential is clearly enormous and hard to quantify. Just like with the current developments in Artificial Intelligence.
 
 **This debate is eternal and normal:**
 
 The benefits of certain CDNs like Bitcoin relative to their costs is a true, ongoing debate. Just be fully aware of both sides. This debate will never end—it's inherently human: "Should we keep using tool X? Should we switch to tool Y?" Ultimately, this is classic human coordination, nothing special to Bitcoin. It happens with all products. Trade-offs are evaluated, society chooses, society tries the new technology, and if the choice brings an overall benefit, it gets adopted.
 
-The main issue with CDNs like Bitcoin is that the benefits are pretty much unmeasurable quickly. We would need to use the technology for one or two generations and see if the programmable economic dependency correlated with a decrease of war threats or even wars themselves.
+The main issue with CDNs like Bitcoin is that the benefits are pretty much impossible to measure quickly. We would need to use the technology for one or two generations and see if the programmable economic dependency correlated with a decrease of war threats or even wars themselves and a betterment in quality of lives globally.
 
 ---
 
@@ -249,13 +253,13 @@ Cryptographic ownership does not exist legally as of now. Most people use custod
 
 **Yang ☯️:** As adoption grows, parliaments will be pressured to create legal frameworks recognizing cryptographic ownership. What we have now are better, untamperable records—you can see what's happening with your property and detect immediately if something sketchy happens to the ownership records. That's the real innovation.
 
-**Bottom line:** CDNs don't come here to guarantee ownership. They come to provide transparent, untamperable records that can support ownership systems.
+**Bottom line:** CDNs don't come here to guarantee physical ownership. They come to provide transparent, untamperable records that can support ownership systems.
 
 ---
 
 ### **"Coordinate without trusted intermediaries":**
 
-**Yin ☯️:** You're still trusting the nodes.
+**Yin ☯️:** The claim of no intermediaries is false. You're still trusting the nodes.
 
 **Yang ☯️:** The nodes are so many and so well designed that trust is practically guaranteed through decentralization. This is where the new word "trustless" comes from—not that you trust nothing, but that you trust a system designed so no single party has a rational incentive to ever betray you. The only real threat is external groups trying to break the system from outside or infiltrate spies to break it from within.
 
@@ -279,15 +283,15 @@ Cryptographic ownership does not exist legally as of now. Most people use custod
 
 **Admin keys and upgrade mechanisms:**
 
-- ☯️ **Yin:** Some deployed contracts include "owner" addresses with special privileges. Common admin powers: pause contract, upgrade logic, mint tokens, adjust parameters. Many DeFi "hacks" involve compromised admin keys or malicious developers using their privileges. "Unstoppable by default" should be "stoppable by default, with rare exceptions."
+- ☯️ **Yin:** Some deployed contracts include "owner" addresses with special privileges. Common admin powers: pause contract, upgrade logic, mint tokens, adjust parameters. Many DeFi (Decentralized Finance) "hacks" involve compromised admin keys or malicious developers using their privileges. "Unstoppable by default" should be "stoppable by default, with rare exceptions.
 
-- ☯️ **Yang:** Anyone can create the very same version of code but without an owner. Users are completely free to interact with whichever code they see fit.
+- ☯️ **Yang:** Anyone can create the very same version of code but without an owner. Users are completely free to interact with whichever code they see fit. And, by default, smart contracts do not have an owner. It is something a human has to code explicitly.
 
 ---
 
 **Oracle dependencies:**
 
-- ☯️ **Yin:** Smart contracts need external data (prices, weather, sports scores). Oracles are centralized points of failure. If an oracle is manipulated, the contract executes incorrectly despite code being "correct." Trusting oracles reintroduces trust assumptions.
+- ☯️ **Yin:** Smart contracts need external data (prices, weather, sports scores). Oracles are centralized points of failure. If an oracle is manipulated, the contract executes incorrectly despite code being "correctly programed." Trusting oracles reintroduces trust assumptions.
 
 - ☯️ **Yang:** Innovation is ongoing—CDNs completely specialized in providing data (Chainlink is an example) are being developed. Designing trust-minimized oracles with CDNs and game theory alignment is an active area of research and development, already being used to safely handle millions of dollars of value.
 
@@ -297,7 +301,7 @@ Cryptographic ownership does not exist legally as of now. Most people use custod
 
 - ☯️ **Yin:** Deploying contracts costs hundreds to thousands of dollars when Ethereum is congested. "Anyone can deploy" is technically true, practically false for most people. Interacting with contracts also costs gas—complex DeFi operations can cost $50-200 in fees.
 
-- ☯️ **Yang:** Layer 2 dramatically reduces costs. Open source software to ease interaction is emerging, along with tutorials across the internet. It's true that not anyone right now is able to deploy their own bank with no computer science knowledge and 1 click—but that's doable. We just need 2 or 3 nerds to code it as a summer project. And that's not unrealistic nerd behavior.
+- ☯️ **Yang:** Layer 2 dramatically reduces costs. Open source software to ease interaction is emerging, along with tutorials across the internet. It's true that not anyone right now is able to deploy their own bank with no computer science knowledge and 1 click—but that's doable. We just need 2 or 3 nerds to code it as a summer project. And that's not unrealistic nerd behavior at all. Furthermore, L1s are also becoming more and more cheap to use as time goes and technological improvements are created.
 
 ---
 
@@ -309,7 +313,7 @@ Cryptographic ownership does not exist legally as of now. Most people use custod
 
 ---
 
-**The reality:** Smart contracts are powerful, but they're not magic. They're code running on distributed systems which, even if the system they run on is trustless, the contracts can have code programmed on them with trust assumptions, centralization points, and social governance.
+**The reality:** Smart contracts are powerful, but they're not magic. They're code running on distributed systems which, even if the system they run on is trustless, the contracts can have code programmed on them with trust assumptions, centralization points, and different social governance.
 
 They are still not secure enough for most people to blindly trust with large amounts of money without due diligence. Yet, this trend is improving over time and it is not that big of a challenge to overcome. As you can see, there are job opportunities everywhere for hackers willing to help secure the smart contract and CDN ecosystem of the future. The author is one of those hackers who is day by day helping secure this ecosystem.
 
@@ -341,7 +345,7 @@ They are still not secure enough for most people to blindly trust with large amo
 
 **The UX (User Experience) complexity:**
 
-- ☯️ **Yin:** Users must understand technical concepts, manage multiple wallets, trust bridge contracts (many hacked for hundreds of millions), and pay multiple transaction fees. "Give us time and we'll simplify it" has been the mantra for years with limited progress. The complexity isn't just UI polish—it's systemic (multiple trust models, different security guarantees, fragmented liquidity).
+- ☯️ **Yin:** Users must understand technical concepts, manage multiple wallets, trust bridge contracts (many hacked for hundreds of millions), and pay multiple transaction fees. "Give us time and we'll simplify it" has been the mantra for years with limited progress. The complexity isn't just UI (User Interface) polish—it's systemic (multiple trust models, different security guarantees, fragmented liquidity).
 
 - ☯️ **Yang:** Even though "we will simplify it" has been going on without completion, it's because there are harder problems to prioritize. Solving UI/UX problems is not the hardest problem this industry faces right now. Current efforts are proposing standards that make it easier at a technical level to interact with multiple databases (chains), and their creation will lead to UX simplification too. Furthermore, it's just a matter of time and more people working to fix the UX problems. The industry is actually young and small.
 
@@ -357,9 +361,9 @@ They are still not secure enough for most people to blindly trust with large amo
 
 **Linux comparison and adoption:**
 
-- ☯️ **Yin:** I said "Linux works perfectly and anyone can use it." Reality: [FACT CHECK: Linux has <3% desktop market share - verify current figures] Linux succeeds in servers (managed by professionals) but fails in consumer adoption. Using Linux as proof that "anyone can use complex open-source software" contradicts decades of evidence. **"Give us time and we'll give you collective freedom"** is hopium. After 15+ years, the problems haven't decreased—they've increased.
+- ☯️ **Yin:** I said "Linux works perfectly and anyone can use it." Reality: Linux desktop share is still a **small single-digit percentage**, but has recently climbed to around **4–5%** globally (as of 2025, up from <3% in previous years). Linux succeeds in servers (managed by professionals) but still struggles in consumer adoption. Using Linux as proof that "anyone can use complex open-source software" contradicts decades of evidence. **"Give us time and we'll give you collective freedom"** is hopium. After 15+ years, the problems haven't decreased—they've increased.
 
-- ☯️ **Yang:** People can learn to use Linux if they put in a few afternoons of effort—5 days at most. It's not that complex, but people's attention is a scarce resource. We must make efforts to get people to care about this, or make it so simple that people don't need to care about it. Both paths are being worked on. If you invest 5 days of your life learning a new tool that can grant you more power and freedom, over time you might even recover them because of the more efficient society you live in—you might get 6 days of holidays down the line. Sure, it's a big effort and must be done by lots of people, so until everyone does it, the benefit likely won't be seen by most people. Things that are worth it require effort: learn and teach, or make it even easier for others to learn. The "laziness" and ignorance of the masses about what they should prioritize learning in their lives is a problem—but it can be overcome. People wait to cross streets when there's a crosswalk; people learned to use smartphones—which might feel easy but isn't. It's a massive change we made (see an old person trying to learn it). This one isn't that massive; we just need teachers, and preachers even, but mainly friendly teachers.
+- ☯️ **Yang:** People CAN learn to use Linux if they put in a few afternoons of effort—5 days at most. It's not that complex, but people's attention is a scarce resource. We must make efforts to get people to care about this, or make it so simple that people don't need to care about it. Both paths are being worked on. If you invest 5 days of your life learning a new tool that can grant you more power and freedom, over time you might even recover them because of the more efficient society you live in—you might get 6 days of holidays down the line. Sure, it's a big effort and must be done by lots of people, so until everyone does it, the benefit likely won't be seen by most people. Things that are worth it require effort: learn and teach, or make it even easier for others to learn. The "laziness" and ignorance of the masses about what they should prioritize learning in their lives is a problem—but it can be overcomed. People wait to cross streets when there's a crosswalk; people learned to use smartphones—which might feel easy now but isn't. It's a massive change we made (see an old person trying to learn it). This one isn't that massive; we just need teachers, and preachers even, but mainly friendly teachers. Selfless teachers if possible.
 
 ---
 
@@ -379,15 +383,15 @@ What you're trusting:
 
 - ☯️ **Yin:** Assume elliptic curves aren't broken (quantum computers might break them). Assume hash functions are secure (SHA-256 collision resistance). Assume no mathematical breakthroughs break current crypto.
 
-- ☯️ **Yang:** To be fair, the whole world works under this assumption. Current banking, military systems, your phone—all modern cryptography relies on these assumptions. Therefore, it's not a new problem unique to CDNs or even to humanity.
+- ☯️ **Yang:** To be fair, the whole world works under this assumption. Current banking, military systems, your phone—all modern cryptography relies on these assumptions. Therefore, it's not a new problem unique to CDNs or even to humanity. Yes, if a brilliant mathmatician figures our a way to break this tomorrow the world might become chaos, sorry for revealing you this assumption under which we all live with.
 
 ---
 
 **2. Code implementations:**
 
-- ☯️ **Yin:** Trust developers wrote bug-free code (they don't—smart contract hacks exist). Trust no backdoors were introduced (can you audit millions of lines of code?)
+- ☯️ **Yin:** Trust developers wrote error-free code (they don't—smart contract hacks exist). Trust no backdoors were introduced (can you audit millions of lines of code?)
 
-- ☯️ **Yang:** Bug-free code, not only in CDNs but in general, is impossible—that is true. But specialists work every day to make sure the bugs are small and not impactful. Join them if you please, but it is very difficult to master. The code is getting more and more secure. Everyone uses and will use this software, so it will be in the interest of all nations to get it right and make sure no other nations put weird code that can be used against them. Therefore, there is a massive incentive to get it right. AAVE, a "bank on the blockchain," is handling already billions of dollars in value from people all over the world. The idea of code containing bugs and backdoors is a valid concern, yet it is extremely complex to actually exploit. Only people with lots of time and lots of knowledge can do it, like geniuses financed by nation-states. Spying software in everyday code used in devices is a thing because the code is private and controlled by corporations which might be bribed or just fooled. But this time, the code is public infrastructure, therefore all nation states that are against each other will make sure no one introduces "hacks." Sure they will try, but others will be watching and notifying. Now it is just a "few billion" dollars on the line, but in the future, if the majority of the world's finance moves to CDNs, the incentive to get it right will be enormous for anyone.
+- ☯️ **Yang:** Error-free code, not only in CDNs but in general, is impossible—that is true. But specialists work every day to make sure the bugs are small and not impactful. Join them if you please, but it is very difficult to master. The code is getting more and more secure. Everyone uses and will use this software, so it will be in the interest of all nations to get it right and make sure no other nations put weird code that can be used against them. Therefore, there is a massive incentive to get it right. AAVE, a "bank on the blockchain," is handling already billions of dollars in value from people all over the world. The idea of code containing bugs and backdoors is a valid concern, yet it is extremely complex to actually exploit. Only people with lots of time and lots of knowledge can do it, like geniuses financed by nation-states. Spying software in everyday code used in devices is a thing because the code is private and controlled by corporations which might be bribed or just fooled. But this time, the code is public infrastructure, therefore all nation-states that are against each other will make sure no one introduces "hacks." Sure they will try, but others will be watching and notifying. Now it is just a "few billion" dollars on the line, but in the future, if the majority of the world's finance moves to CDNs, the incentive to get it right will be enormous for anyone.
 
 ---
 
@@ -411,7 +415,7 @@ What you're trusting:
 
 - ☯️ **Yin:** Trust that internet remains available. Trust that electricity grid works. Trust that nodes continue running. Trust that exchanges/wallets provide access.
 
-- ☯️ **Yang:** Again, the whole world relies on this today. Regarding nodes, it is like saying trust that your router device at home will work. If a CDN has few nodes, it has more chances of being taken down accidentally or maliciously—so take that into account. For now, big CDNs almost never experience this. [FACT CHECK: Ethereum has never been down since it was created 10 years ago - Ethereum launched July 2015; verify exact uptime statistics] [FACT CHECK: BTC has been down also very little, around 99% uptime - verify actual historical uptime] That mimics current internet technologies' uptime. Centralized exchanges only make sense in the world of today, but in the future when everyone is onchain they will stop making sense. DEXes (decentralized exchanges) already exist and you don't need permission from anyone to use them. Furthermore, lots of wallet software exists, even open source, and even more is being created. The likelihood of you not being able to access your money because of a wallet problem is ridiculously low. JUST REMEMBER: NOT YOUR KEYS, NOT YOUR COINS. A wallet stops working? You use another one, activate your keys, and move the coins.
+- ☯️ **Yang:** Again, the whole world relies on this today. Regarding nodes, it is like saying trust that your router device at home will work. If a CDN has few nodes, it has more chances of being taken down accidentally or maliciously—so take that into account. For now, big CDNs almost never experience this. Ethereum has had **near-perfect uptime** since 2015, with no major chain-wide outages (celebrating 10+ years with effectively no network-wide downtime). Bitcoin has achieved **~99.99% uptime** since 2009, with only two significant incidents early in its history. That mimics current internet technologies' uptime. Centralized exchanges only make sense in the world of today, but in the future when everyone is onchain they will stop making sense. DEXes (decentralized exchanges) already exist and you don't need permission from anyone to use them. Furthermore, lots of wallet software exists, even open source, and even more is being created. The likelihood of you not being able to access your money because of a wallet problem is ridiculously low. JUST REMEMBER: NOT YOUR KEYS, NOT YOUR COINS. A wallet stops working? You use another one, activate your keys, and move the coins.
 
 ---
 
@@ -425,7 +429,7 @@ What you're trusting:
 
 **Conclusion:**
 
-**Indeed the accurate term is "trust-minimized"** (reducing trust requirements), not "trustless" (which seems to imply eliminating trust completely). But to be honest, all human interaction is eventually based on trust. Trustless is impossible for human nature. The idea of designing systems that systemically reduce trust-needing factors is still new and should have a word. You choose it to be honest—the industry is new and the term that will stay is the one people eventually use.
+**Indeed the accurate term is "trust-minimized"** (reducing trust requirements), not "trustless" (which seems to imply eliminating trust completely). But to be honest, all human interaction is eventually based on trust. Trustless is impossible for human nature. The idea of designing technological systems that systemically reduce trust-needing factors is still new and should have a word. You choose it to be honest—the industry is new and the term that will stay is the one people eventually use.
 
 I prefer trust-minimized. Which one do you?
 
@@ -452,7 +456,7 @@ After 15+ years, **crypto's primary use case is speculation**, not the revolutio
 - Ponzi schemes that are clear scams
 
 **3. Actual utility (~1%):**
-- International remittances (some use, but high fees + volatility limit adoption)
+- International remittances (some use, but fees + volatility limit adoption)
 - Censorship resistance (activists in authoritarian regimes—real but tiny volume)
 - Unbanked financial access (mostly aspirational, limited real-world success)
 
@@ -474,7 +478,7 @@ The book presented use cases as if they're current reality. Most are aspirationa
 
 ☯️ **Yang:** The change this technology brings is deep—redefining trust architecture is a colossal civilizational change involving everyone from citizens, to developers, to governments. This will take generations, not just a few years.
 
-**On illicit activities:** Every transformative technology gets weaponized initially. Guns, the internet, encryption—all enabled crime. The deep web facilitates illegal markets, yet we didn't abandon the internet. We learned to manage risks while capturing benefits. Most people use the internet legally today. CDNs will follow the same pattern: society will develop frameworks to mitigate abuse while preserving the advantages.
+**On illicit activities:** Every transformative technology gets weaponized initially. Guns, the internet, encryption—all enabled more sophisticated ways of doing crime. The deep web facilitates illegal markets, yet we didn't abandon the internet. We learned to manage risks while capturing benefits. Most people use the internet legally today. CDNs will follow the same pattern: society will develop frameworks to mitigate abuse while preserving the advantages.
 
 **On timeline expectations:** Changing institutions, habits, and collective understanding requires time and collective effort. If you expect the classic developer mindset of "move fast, break things" progress, you'll be frustrated. Trust-minimization technology demands careful development, education, marketing, and social consensus-building across all of society—from the most democratic to the most authoritarian nations.
 
@@ -505,7 +509,7 @@ The technology layer itself may be neutral, but **how we apply it and what value
 2. **Choice**: You can fork it or create alternatives with different values
 3. **Participation**: Anyone can join the conversation about what those values should be
 
-Traditional financial systems also embed ideologies (Keynesian economics, central bank control, surveillance).
+Traditional financial systems also embed ideologies: Keynesian economics, central bank control, surveillance... And you can not escape them as easily at all.
 
 ---
 
@@ -514,7 +518,7 @@ Traditional financial systems also embed ideologies (Keynesian economics, centra
 You should have enough knowledge to think on your own by now, but here's practical advice:
 
 **1. Only risk what you can afford to lose.**
-- Crypto is highly speculative and volatile
+- Crypto is highly speculative and volatile today
 - Don't use crypto for savings—use stable, boring traditional instruments instead
 - Treat it like lottery tickets or casino chips, without gambling
 
@@ -524,7 +528,7 @@ You should have enough knowledge to think on your own by now, but here's practic
 
 **3. If you experiment, stick to established CDNs.**
 - Bitcoin or Ethereum are least scammy (still risky)
-- Avoid altcoins, meme coins, new tokens (99.99% scams whether their creators know it or not)
+- Avoid altcoins, meme coins, new tokens (99.99% of them are scams whether their creators know it or not)
 
 **4. Be deeply skeptical.**
 - Most crypto projects are scams, rug pulls, or Ponzis
@@ -542,7 +546,7 @@ You should have enough knowledge to think on your own by now, but here's practic
 - Accept stablecoin payments in your shop if you own one
 - Use decentralized banks to earn yield on cash you don't need immediately
 - VISA/Mastercard already allow indirect crypto spending even if merchants don't accept it
-- Pay friends for dinners via wallets to get comfortable
+- Pay friends for dinners via wallets to get comfortable using them
 - Keep main net worth out of crypto, but do put some in it to learn. Remember, money you really do not need.
 - The technology depends on adoption; you're building a more efficient future
 - Share knowledge with friends—educate without being annoying
@@ -573,7 +577,7 @@ You should have enough knowledge to think on your own by now, but here's practic
 - Mostly speculative usage today (you, literally you, can change that) ✅
 - Crime enablement (like all tools) ✅
 - Complex to use currently (like all technologies at first) ✅
-- Uncertain future (like any innovation) ✅
+- Uncertain future (like with any innovation) ✅
 
 ---
 
@@ -615,8 +619,8 @@ Welcome to the other side of the breaking ball.
 
 **🦩 — Yours Faithfully, Flami, the realistic flamingo.**
 
-![alt text](image-1.png)
+![alt text](flamicoins.png)
 
 ---
 
-**Next:** Chapter 19 will recap the entire journey—from bits to Bitcoin, from cryptography to coordination. You'll see what you've learned and what you can build with that knowledge.
+**Next:** The book is almost done, let's start the conclusion. Chapter 19 will recap the entire journey—from bits to Bitcoin, from cryptography to coordination. You'll see what you've learned and what you can build with that knowledge.

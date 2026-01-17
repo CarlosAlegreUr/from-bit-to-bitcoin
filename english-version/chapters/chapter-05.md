@@ -64,9 +64,7 @@ This isn't a new problem—humans have been trying to send secret messages for t
 
 Here's what makes the Internet different from all previous communication methods:
 
-**The Internet is designed to be open.** When it was first developed in the 1960s-70s, it connected trusted institutions—universities, research labs, government facilities. They shared academic papers and research data, and privacy wasn't the priority; open communication was.
-
-[FACT CHECK: "Internet was first developed in the 1960s-70s" - ARPANET began in 1969; "Internet" as we know it evolved later through the 1980s-90s]
+**The Internet is designed to be open.** The foundations of the Internet were laid with **ARPANET in 1969**, which connected trusted institutions—universities, research labs, government facilities. They shared academic papers and research data, and privacy wasn't the priority; open communication was. The modern "Internet" as we know it emerged through the 1980s and 1990s with the adoption of TCP/IP protocols.
 
 But as the Internet grew and connected the whole world, a problem emerged: how do you send private data across a public network? Inside a building, dedicated cables work fine. But between cities, countries, continents? You need infrastructure—routers, cables, satellites—owned and operated by strangers.
 

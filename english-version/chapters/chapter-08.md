@@ -37,16 +37,12 @@ When you have multiple qubits in superposition, they can represent many possible
 **What quantum computers could break:**
 - RSA (relies on factoring large numbers)
 - Elliptic Curve Cryptography / ECDSA (used by Bitcoin and Ethereum)
-- Timeline: 10-20+ years before quantum computers are powerful enough
-
-[FACT CHECK: "10-20+ years" timeline - quantum computing advancement estimates vary widely and change frequently; verify current expert consensus]
+- Timeline: Experts typically estimate that quantum computers capable of breaking today's public-key cryptography are **10–20 years away**, with some putting the risk around the **2030s**, though uncertainty and disagreement remain about exact timelines.
 
 **What stays secure:**
 - Symmetric encryption like AES (just use larger keys)
 - Hash functions (relatively resistant)
-- Post-quantum cryptography algorithms (already exist and standardized by NIST in 2024)
-
-[FACT CHECK: "standardized by NIST in 2024" - verify NIST post-quantum cryptography standardization date]
+- Post-quantum cryptography algorithms (already exist and were standardized by NIST in **August 2024** with the release of FIPS 203, 204, and 205, covering algorithms like Kyber, Dilithium, and SPHINCS+)
 
 ## Why Cryptocurrencies Can Adapt
 
@@ -79,9 +75,7 @@ The entire world has incentive to develop quantum-resistant cryptography BEFORE 
 
 Here's a fascinating consequence:
 
-**Satoshi Nakamoto**, the pseudonymous creator of Bitcoin, mined approximately 1 million Bitcoin in the early days—today worth tens of billions of dollars.
-
-[FACT CHECK: "approximately 1 million Bitcoin" - estimates of Satoshi's holdings vary; commonly cited range is 750,000 to 1.1 million BTC]
+**Satoshi Nakamoto**, the pseudonymous creator of Bitcoin, mined between **750,000 and 1.1 million Bitcoin** in the early days (most analyses estimate around **1 million BTC**)—today worth tens of billions of dollars.
 
 **When you spend Bitcoin, you reveal your public key on the blockchain.** Satoshi made some transactions, revealing some public keys.
 

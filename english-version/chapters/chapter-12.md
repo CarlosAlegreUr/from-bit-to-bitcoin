@@ -6,7 +6,7 @@
 
 In Chapter 11, we learned that when two miners solve puzzles simultaneously, we let them compete and accept the longest chain. We also learned that we need a clever way to store which iteration we're on—a way that can't be cheated.
 
-**This chapter is a technical deep-dive into how the blockchain data structure works.** If you skipped here from Chapter 11, welcome! If you're coming from another chapter—you might want to read Chapter 11 first for context.
+**This chapter is a technical deep-dive into how the blockchain data structure works.** If you come from Chapter 11, welcome! If you're coming from another chapter—you might want to read all until Chapter 11 first for context.
 
 ## How Does the Blockchain Data Structure Actually Work?
 
@@ -135,7 +135,7 @@ hash("Hello!") = 9f4e7b  (completely different)
 Properties:
 - **One-way:** Can't reverse it (can't get "Hello" from d3a1f2).
 - **Deterministic:** Same input always gives same output.
-- **Unique (practically):** Different inputs produce different outputs.
+- **Unique (with nuances):** Different inputs produce different outputs.
 - **Sensitive:** Change input even slightly, output changes completely.
 
 Hash functions create **unique fingerprints** for data. A safe hash function must output large enough values to avoid the statistical chance of two inputs having the same output—but don't worry about these details. You don't need them to understand how a blockchain is built. You just need to remember the properties of hash functions.
@@ -161,7 +161,7 @@ Block 1                    Block 2                    Block 3
 
 ## Why This Structure Matters: Tamper-Evident History
 
-Here's the magic property of this structure: **If you change any block, you break the entire chain.**
+Here's the magic property of this structure: **If you change any block, you break the entire chain.** It is not a pointer, but it works similarly. I added the concepts of pointers and linked lists because they help with visual understanding.
 
 Remember hash functions? Change the input even slightly, and the hash changes completely.
 
@@ -209,7 +209,7 @@ Step 5: Update Block 102... and so on
 
 **Yes, you could do this.** But here's the catch: **each block requires Proof-of-Work.**
 
-Remember, to create a valid block, you must solve the computational puzzle (find a hash starting with many zeros). This takes roughly 10 minutes of massive computational effort. [FACT CHECK: "~10 minutes of massive computational effort" - 10-minute average is correct for Bitcoin block time, but actual effort varies enormously based on miner's hashrate share]
+Remember, to create a valid block, you must solve the computational puzzle (find a hash starting with many zeros). Across the entire network this takes, on average, about **10 minutes** of massive computational effort.
 
 **So to rewrite history:**
 - Change Block 100 → Must redo Proof-of-Work (~10 minutes).
@@ -229,7 +229,7 @@ If the honest network has more computational power than you, they'll always be a
 
 **And remember the rule from Chapter 11: the longest chain wins.**
 
-## The Longest Chain Rule (Revisited)
+## The Longest Chain Rule (Refreshser)
 
 We introduced this in Chapter 11, but now you understand why it's so powerful.
 
@@ -258,13 +258,13 @@ If the honest network controls 51% or more of the computational power, the attac
 
 **The deeper a block is buried (more blocks built on top of it), the harder it is to rewrite.**
 
-This is why people wait for "6 confirmations" before considering a Bitcoin transaction final. After 6 blocks (~1 hour), rewriting history becomes exponentially expensive. [FACT CHECK: "6 confirmations" as standard - This is the traditional Bitcoin convention, though confirmation requirements vary by exchange and transaction size]
+This is why people wait for "6 confirmations" before considering a Bitcoin transaction final. After 6 blocks (~1 hour), rewriting history becomes exponentially expensive.
 
 ## The Anti-Gaslight Machine
 
 This is why blockchain is sometimes called an "anti-gaslight" structure.
 
-**Gaslighting** is when someone makes you doubt reality by denying facts and rewriting history.
+**Gaslighting** is when someone makes you doubt reality by denying facts repeatedly until you assume you are the crazy one and accept the lie.
 
 **Without blockchain:**
 ```
@@ -289,7 +289,7 @@ Result: Gaslighting fails. History is preserved.
 
 This is the power of distributed, tamper-evident history.
 
-## The 51% Attack (Revisited)
+## The 51% Attack
 
 We mentioned in Chapter 10 that if someone controls 51% of the computational power, they have more chances to write blocks.
 
@@ -313,7 +313,7 @@ Now we understand the full implication: **With 51% of the hash power, you can re
 - If detected, the network's value crashes, and your hardware becomes worthless.
 - The attack is visible—everyone sees two competing chains.
 
-**This is why Bitcoin requires a 51% attack to be irrational.** The cost outweighs the benefit for internal actors. External actors (nation-states) could afford it, but that's a different threat model.
+**This is why Bitcoin requires a 51% attack to be broken. But it is an irrational attack.** The cost outweighs the benefit for internal actors. Only external actors would do it. For smaller CDNs, nation-states might be able to afford it, but for Bitcoin, it's prohibitively expensive.
 
 ## The Blockchain Structure Summarized
 
@@ -324,7 +324,7 @@ Let's bring it all together:
 - Hash of the previous block (the "pointer").
 - Proof-of-Work solution.
 
-**2. Blocks are chained via hashes:**
+**2. Blocks are tamper evident thanks to hashes:**
 - Each block contains the hash of the previous block.
 - Change one block → breaks all subsequent blocks.
 
@@ -340,14 +340,14 @@ Let's bring it all together:
 - The more blocks built on top, the safer the history.
 - 6+ blocks = effectively permanent (for most practical purposes).
 
-**This is the blockchain.** Not just a "chain of blocks," but a tamper-evident, distributed, append-only history that makes rewriting the past computationally infeasible.
+**This is the blockchain.** Not just a "chain of blocks," but a tamper-evident, distributed, append-only history that makes rewriting the past computationally infeasible in decentralized database networks.
 
 ## Why This Matters
 
 Throughout history, those who controlled records controlled the truth:
 
 - Governments rewrote history books to erase inconvenient facts.
-- Banks altered ledgers to steal funds.
+- Banks altered ledgers to steal or fake funds.
 - Dictators destroyed archives to hide their crimes.
 
 **Blockchain inverts this power dynamic.**
@@ -356,10 +356,10 @@ No single entity controls the history. Everyone has a copy. Tampering is visible
 
 **This is the anti-gaslight machine.** A shared, verifiable, tamper-evident history that no one person controls.
 
-Whether it's money (Bitcoin), contracts (Ethereum), or any data we care about—blockchain provides a way to coordinate on truth without trusting any single authority.
+Whether it's money (Bitcoin), programmable contracts (Ethereum), or any data we care about—blockchain provides a way to coordinate on truth without trusting any single authority.
 
 ---
 
-**Key Insight:** A blockchain is a linked list data structure where each block contains the hash of the previous block, creating a tamper-evident chain. Changing any block breaks all subsequent blocks. Since each block requires Proof-of-Work, rewriting history means redoing all that computational effort. The longest chain (most accumulated work) wins, making deep history effectively immutable. This creates an "anti-gaslight" ledger where the past cannot be silently rewritten. Combined with distribution (everyone has a copy), blockchain provides verifiable history without central control.
+**Key Insight:** A blockchain is a linked-list-like data structure where each block contains the hash of the previous block, creating a tamper-evident chain. Changing any block breaks all subsequent blocks. Since each block requires Proof-of-Work, rewriting history means redoing all that computational effort. The longest chain (most accumulated work) wins, making deep history effectively immutable. This creates an "anti-gaslight" ledger where the past cannot be silently rewritten. Combined with distribution (everyone has a copy), blockchain provides verifiable history without central control.
 
-Now that you understand the technical details of how the blockchain data structure works, you're ready to explore the bigger picture—what these systems enable at a societal level, how they change power dynamics, and why this matters for the future.
+Now that you understand the technical details of how the blockchain data structure works, you're even more ready to explore the bigger picture—what these systems enable at a societal level, how they change power dynamics, and why this matters for the future.

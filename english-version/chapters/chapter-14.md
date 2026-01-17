@@ -56,7 +56,7 @@ Someone created a smart contract (program) called "The DAO" (Decentralized Auton
 
 People sent money (ETH) to this contract, and token holders voted on which projects to fund. No CEO, no board of directors—just code enforcing rules.
 
-**It raised $150 million worth of ETH.** At the time, that was about 14% of all Ethereum in existence. [FACT CHECK: 14% of all ETH - verify this percentage against historical records]
+**It raised $150 million worth of ETH.** At the time, that was about 14% of all Ethereum in existence.
 
 Everyone was excited. This was the future! Decentralized organizations!
 
@@ -64,13 +64,13 @@ Then, someone found an error in the code—a bug.
 
 ### The Hack: $50 Million Stolen
 
-On June 17th, 2016, an attacker exploited a vulnerability in The DAO's code. [FACT CHECK: June 17th, 2016 - verify exact date of DAO hack]
+On June 17th, 2016, an attacker exploited a vulnerability in The DAO's code.
 
 The bug allowed them to repeatedly withdraw funds without the contract properly updating the balance—like an ATM that gives you money but forgets to subtract it from your account.
 
 **$50 million worth of ETH was drained.**
 
-The attacker didn't "hack" Ethereum. They didn't change any consensus rules. They just found a flaw in the smart contract code and exploited it—perfectly legally according to the code itself.
+The attacker didn't "hack" Ethereum. They didn't change any consensus rules. They just found a flaw in the smart contract code and exploited it—perfectly legal according to the code itself.
 
 If you write code that sends me money but forget to put a limit on how much it can spend, well, that's not technically my fault. The actual hack was more complex than this, but you get the idea of a code error:
 
@@ -127,17 +127,16 @@ So Ethereum forked.
 
 ### The Split: Two Ethereums
 
-At block `1,920,000`, the network split into two separate chains: [FACT CHECK: Block 1,920,000 - verify exact block number of ETH/ETC split]
+At block `1,920,000`, the network split into two separate chains:
 
-**Ethereum (ETH):** The majority chain, the one still running as "the main one" today. It reversed the hack and returned the stolen funds. The community chose pragmatism under the promise of never doing it again—and so far they've kept that promise, even with hacks of 1.5 billion dollars recently. [FACT CHECK: $1.5 billion recent hack - verify this figure and which hack is referenced]
+**Ethereum (ETH):** The majority chain, the one still running as "the main one" today. It reversed the hack and returned the stolen funds. The community chose pragmatism under the promise of never doing it again—and so far they've kept that promise, even with major exchange hacks like the **February 2025 Bybit hack** where approximately 401,000 ETH (~$1.5B) were stolen from the centralized exchange (not all was inside Ethereum but you get the idea).
 
 **Ethereum Classic (ETC):** The minority chain. It kept the original history, honored immutability, and chose ideology.
 
 **Both are valid CDNs.** Both are still running. Both have value. Both have communities.
 
-As of today:
-- Ethereum (ETH): ~$200 billion market cap. [FACT CHECK: ETH market cap - verify current figure]
-- Ethereum Classic (ETC): ~$3 billion market cap. [FACT CHECK: ETC market cap - verify current figure]
+**Market values** (which fluctuate constantly):
+- At the time of writing (early 2026), Ethereum's market cap is in the **hundreds of billions of dollars**, while Ethereum Classic's is in the **low single-digit billions**.
 
 The market voted with its money. The majority won economically. But the minority still exists.
 
@@ -174,7 +173,7 @@ In 2017, Bitcoin faced its own split.
 
 ### The Problem: Bitcoin Is Slow
 
-Bitcoin processes approximately 7 transactions per second. Visa processes around 24,000. [FACT CHECK: Bitcoin 7 TPS vs Visa 24,000 TPS - verify these figures]
+Bitcoin processes approximately 7 transactions per second. Visa processes around 24,000.
 
 As Bitcoin grew popular, transaction fees skyrocketed and wait times increased. It was getting expensive and slow.
 
@@ -212,7 +211,7 @@ One side prioritized **accessibility and low fees**. The other prioritized **dec
 
 The community couldn't agree.
 
-So on August 1st, 2017, Bitcoin forked: [FACT CHECK: August 1st, 2017 - verify exact date of BCH fork]
+So on August 1st, 2017, Bitcoin forked:
 
 **Bitcoin (BTC):** Kept 1 MB blocks. Focused on decentralization. Developed Layer 2 solutions.
 
@@ -220,9 +219,8 @@ So on August 1st, 2017, Bitcoin forked: [FACT CHECK: August 1st, 2017 - verify e
 
 Both still exist. Both have communities. Both have different visions for what "Bitcoin" means.
 
-**Market values:**
-- Bitcoin (B): ~$800 billion. [FACT CHECK: BTC market cap - verify current figure]
-- Bitcoin Cash (BCH): ~$10 billion. [FACT CHECK: BCH market cap - verify current figure]
+**Market values** (which fluctuate constantly):
+- At the time of writing (early 2026), Bitcoin's market cap is in the **hundreds of billions of dollars** (approaching or exceeding a trillion at times), while Bitcoin Cash's is in the **low billions**.
 
 Again, a majority clearly won economically. But the minority chain survives.
 
@@ -303,7 +301,7 @@ If you disagree strongly enough, you can fork. And if enough others agree with y
 
 #### How Many People Do You Need To Fork?
 
-Just 2.
+Just the 2 of us.
 
 As long as you have a group—meaning at least 2 people—you can both run your own version of the code on the database and convince others to use it. As long as you have at least 2 people, you have consensus among yourselves and can run your own version of the code.
 
@@ -381,11 +379,7 @@ You can't force people to agree. You can only:
 - Write your code.
 - See who follows.
 
-**The network is, ultimately, the people who chose it.**
-
-Code is just a tool. People decide which tool to use.
-
-If enough people disagree, the network splits. And that's not necessarily the end of the world, since both versions can coexist.
+**The network is, ultimately, the people who chose it.** Code is just a tool. People decide which tool to use. If enough people disagree, the network splits. And that's not necessarily the end of the world, since both versions can coexist.
 
 **This is what decentralization really means:** No single entity decides for everyone. Groups do, starting from the smallest one—2 people.
 

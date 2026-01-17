@@ -54,11 +54,11 @@ This is what Bitcoin and Ethereum chose.
 
 There's a physical limit to how fast this can happen. If blocks come too quickly, some nodes won't be able to keep up with their smaller machines. If blocks are too large, only people with expensive hardware can participate, which leads to centralization and loses the security guarantees that decentralization provides.
 
-The block time (how often new blocks are created) is chosen in the consensus rules. Bitcoin chose 10 minutes, Ethereum chose ~12 seconds. But you can't make it too fast without risking that only powerful computers can keep up. [FACT CHECK: Bitcoin 10 min, Ethereum ~12 sec - verify these are still accurate post-merge]
+The block time (how often new blocks are created) is chosen in the consensus rules. Bitcoin chose 10 minutes, Ethereum chose ~12 seconds. But you can't make it too fast without risking that only powerful computers can keep up.
 
-Result: **~7 transactions/second (Bitcoin), ~15 transactions/second (Ethereum).** [FACT CHECK: transaction throughput numbers - these vary by source and measurement method]
+Result: **~7 transactions/second (Bitcoin), ~15 transactions/second (Ethereum).**
 
-Compare to other centralized payment systems like Visa: **~24,000 transactions/second.** [FACT CHECK: Visa throughput - commonly cited but may be outdated; Visa claims higher peak capacity]
+Compare to other centralized payment systems like Visa: **~24,000 transactions/second.**
 
 ### Scalability + Security = Centralized
 
@@ -118,7 +118,7 @@ Remember how CDNs work:
 
 The more nodes you have (and therefore more decentralization), the more work that needs to happen. Every node must compute several things for every transaction.
 
-If you want it secure—that is, working as expected—you can't rush it. If you want it decentralized, you can't limit who participates. But if you want it fast... you have to sacrifice one of those.
+If you want it secure—that is, working as expected—you can't rush it. If you want it decentralized, you can't limit who participates. But if you want it fast too... you have to sacrifice one of those.
 
 ## Do We Need Slow Global Consensus For Everything Though?
 
@@ -234,7 +234,7 @@ Imagine that to connect to the internet you had to do it completely differently 
 
 Beyond technical complexity, there's also the cognitive load it creates.
 
-Users have to choose which Layer 2 to use. Do I use Arbitrum? Optimism? Polygon? Base? It's like choosing which state to live in—not everyone understands the exact differences.
+Users have to choose which Layer 2 to use. Do I use Arbitrum? Optimism? Polygon? Base? It's like choosing which state to live in—not everyone understands the exact differences and it takes time to do so.
 
 Each Layer 2 has different trust assumptions (some are more centralized than others), different speeds and costs, different security models, and different applications built on them. **How is a normal person supposed to choose wisely?**
 
@@ -244,7 +244,7 @@ If you want to independently move your money around all these CDNs, you have to 
 
 It's like moving residency—possible, but not instant or free.
 
-No one has time for this, just nerds like the author. As said, technical advancements like creating new consensus rules are going to simplify the process in the future, and users will not have to know that much about all the details at all. But that's just under construction. This industry is just 16 years old if you count since Bitcoin was created—very young—and lots of code is still to be written, and to write it securely slows down the process. Mess something up in this industry and you get some irrecoverable hacks, as we have explained in earlier chapters. [FACT CHECK: "16 years old" - verify based on publication date vs Bitcoin genesis block January 2009]
+No one has time for this, just nerds like the author. As said, technical advancements like creating new consensus rules are going to simplify the process in the future, and users will not have to know that much about all the details at all. But that's just under construction.
 
 ### Different Trust Assumptions And Software Accessibility
 
@@ -262,11 +262,15 @@ There have even been invented cryptographic mechanisms where, even if the L2 bre
 
 It is unrealistic to expect everyone to become a software engineer, but it is not unrealistic to create open-source software usable and accessible by anyone at global scales. Linux, a free operating system that works perfectly, is free and for everyone, anywhere. And so on and so forth—there is lots of software capable of this.
 
-It is true that this software requires a small effort; they are not just available in the Play Store where you install them in one click. But this extra thing or two you have to learn is minimal and anyone can do it in one or two afternoons, especially the new generations who were born around digital tools. And it is likely that someone creates a way to even delete this small barrier to entry in the future.
+It is true that these softwares require a small effort; they are not just available in the Play Store where you install them in one click. But this extra thing or two you have to learn is minimal and anyone can do it in one or two afternoons, especially the new generations who were born around digital tools. And it is likely that someone creates a way to even delete this small barrier to entry in the future.
 
 Therefore, give us time and we will give you collective freedom. Or put a small effort in understanding how to download code from places like GitHub. Modern AIs can explain how to do this pretty well.
 
 If you are a software engineer reading this, I encourage you to use your knowledge and build for the CDN niche. Thanks so much, you are very welcome, we will never have enough people working—it just creates more decentralization and better systems. And please, do not forget the purpose, do not forget that decentralization is what keeps the party going.
+
+### Industry Age Context
+
+This industry is just about **16 years old** as of **2025** if you count since Bitcoin was created—very young—and lots of code is still to be written, and to write it securely slows down the process. Mess something up in this industry and you get some irrecoverable hacks, as we have explained in earlier chapters.
 
 ### Fragmentation
 
@@ -361,4 +365,4 @@ Turns out, no. And that's the topic of our next chapter.
 
 **Key Insight:** The blockchain trilemma: you can only have 2 of 3 (decentralization, security, scalability). Bitcoin and Ethereum chose decentralization + security, sacrificing speed (~7-15 tx/sec vs Visa's ~24,000). But we don't need global consensus for everything—most coordination can be local. Layer 2s are smaller CDNs on top of Layer 1: Layer 1 is slow, secure, global (federal government), while Layer 2s are fast, cheap, local (state governments). Examples: Lightning Network (Bitcoin), Arbitrum/Optimism/Polygon/Base (Ethereum). They periodically checkpoint to Layer 1, creating an immutable record that prevents corruption from being hidden. Trade-offs: technical complexity (hard to connect L2s), cognitive load (too many choices), different trust assumptions, coordination overhead, fragmentation. This mirrors human society: local -> regional -> national -> global. Consensus can be nested—societies within societies. Most daily life doesn't need global consensus, only checkpoints for truth and security. But all transactions are still public—can we have privacy AND verification?
 
-Next, we'll explore Zero-Knowledge proofs—proving you know something without revealing what you know. This seemed mathematically impossible until the 1980s, and incredibly inefficient and "useless" in practice until the 2010s, but it's now the missing piece for private, verifiable coordination. [FACT CHECK: ZKP timeline - verify 1980s theoretical development and 2010s practical implementation claims]
+Next, we'll explore Zero-Knowledge proofs—proving you know something without revealing what you know. This seemed impossible until the 1980s, and impractical until the 2010s, but it's now the missing piece for private, verifiable coordination.

@@ -312,7 +312,7 @@ For thousands of years, humans used physical objects as money. Salt was valuable
 
 **But consensual synchronized bits**—distributed across thousands of computers, with no central authority, where YOU control your money with cryptographic keys—this is new.
 
-It's only possible because we (Satoshi, whoever he, she is or they are) solved the consensus problem. [FACT CHECK: "Satoshi solved the consensus problem" - While Satoshi's Bitcoin whitepaper presented a novel solution to the Byzantine Generals Problem for digital currency, the framing of "solved the consensus problem" may be overly broad, as consensus mechanisms and their trade-offs are still actively researched]
+It's only possible because Satoshi (whoever he, she, or they are) introduced the first **practical, decentralized consensus mechanism for digital money**—often called *Nakamoto consensus*. This solved the double-spend problem in an open network by combining proof-of-work, longest-chain selection, and economic incentives. It's not *the* final solution to all consensus research (that's a broader field with many variants), but it was the breakthrough that made Bitcoin work.
 
 ---
 

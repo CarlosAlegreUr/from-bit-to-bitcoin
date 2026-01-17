@@ -12,7 +12,7 @@ This is called **encryption**, and the simplest form is called **symmetric encry
 
 ## The Caesar Cipher
 
-Let's start with one of the oldest encryption methods: the Caesar cipher, named after Julius Caesar who used it to send military messages over 2,000 years ago. [FACT CHECK: Caesar lived 100-44 BCE, making this approximately 2,100 years ago - verify exact dating claim]
+Let's start with one of the oldest encryption methods: the Caesar cipher, named after Julius Caesar who used it to send military messages over **2,000 years ago** (Julius Caesar lived from 100 BCE to 44 BCE, making it approximately 2,050 years ago).
 
 The idea is beautifully simple: **shift every letter by a fixed number.**
 

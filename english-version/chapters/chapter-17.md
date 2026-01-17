@@ -14,7 +14,7 @@ This isn't just "digital money." It isn't just "smart contracts." It isn't just 
 
 **This is coordination technology for strangers at the internet scale.**
 
-And it makes things possible that were literally, physically impossible before 2009. [FACT CHECK: "2009" as start date - Bitcoin whitepaper was 2008, genesis block January 2009]
+And it makes things possible that were literally, physically impossible before **2009**, when the Bitcoin network launched.
 
 This is the beginning of a new chapter in human history that allows us to coordinate and alter the traditional behavior in some of our societal structures in ways that once sounded impossible and illogical.
 
@@ -48,7 +48,7 @@ You needed intermediaries—banks, brokers, legal teams. Regulations made it exp
 
 **All of these things were physically impossible.**
 
-And then, starting in 2009 with Bitcoin, they slowly became possible. [FACT CHECK: "21 million" Bitcoin cap - verify this is the exact figure commonly cited]
+And then, starting in 2009 with Bitcoin, they slowly became possible.
 
 Not easy. Not perfect. But **possible.** That is already a leap of infinite size.
 
@@ -180,7 +180,7 @@ Right now, your identity is fragmented. Facebook owns your social graph. Google 
 
 Your credentials, reputation, and data live on-chain or in Zero-Knowledge Proofs. You prove what you need to prove without revealing everything. You take your identity with you across platforms.
 
-**Is this ready today?** Not quite. But the infrastructure is being built.
+**Is this ready today?** Not quite for normal people usage. But the infrastructure is being built.
 
 ### Coordination: Layer 2s = Mini-Societies
 
@@ -204,7 +204,7 @@ You don't have to choose between privacy and participation.
 
 ## Flami's Farewell: Leaving the Propaganda Zone
 
-Hellow, I'm Flami! We are slowly leaving the propaganda zone. I hope you enjoyed the ride. Bumps on the road ahead, please fasten your intellectual seatbelt.
+Hellow, I'm Flami 🦩! We are slowly leaving the propaganda zone. I hope you enjoyed the ride. Bumps on the road ahead, please fasten your intellectual seatbelt.
 
 This technology is powerful. It does enable things that were literally impossible before, and therefore it represents technological and even intellectual progress.
 
@@ -242,7 +242,7 @@ Gold has value because people agree it does. The US Dollar has value because peo
 
 Some things have value for their usage, like food, but when societies grow and we no longer crave survival, value mainly becomes a social construct for coordination.
 
-Bitcoin just makes this transparent. The value isn't hidden in central bank decisions or government decrees. It's visible in the market, in the nodes, in the forks.
+Bitcoin just makes this transparent. The value isn't hidden in allegedly completely independent central bank decisions or government decrees. It's visible in the market, in the nodes, in the forks.
 
 ### Coordination Is Voluntary
 
@@ -257,17 +257,23 @@ You choose which network to join. You choose which software to run. You choose w
 
 **With CDNs, exit is always an option.** Fork. Join another network. Start your own.
 
-This doesn't mean there are no power dynamics. Network effects matter. Incumbents have advantages. But the **ability to exit and the ability to truly own change the game.**
+This doesn't mean there are no power dynamics. Network effects matter. Knowledgeable people have advantages. But the **ability to exit and the ability to truly own change the game.**
 
 ### Technology Enables, Humans Decide
 
-**Bitcoin doesn't have a political opinion.**
+**CDNs don't have a political opinion.**
 
 It's a tool. Like fire, electricity, or the internet.
 
 You can use Bitcoin to escape authoritarian capital controls. You can use Bitcoin to evade taxes and fund crime. You can use Bitcoin as speculative investment. You can use Bitcoin as a philosophical statement about money.
 
+In the same way you can use the State to create good public services that avoid famine or use it to steal public funds and wage unnecessary wars. The systems are tools, the people who use them are the ones who add the ethical factor.
+
+The people who run Bitcoin do have political opinions. Like chosing that a limited supply is the good thing to do.
+
 **The technology is neutral. Humans give it meaning.**
+
+Not because there are corrupted governments or States that are "evil" dicatorships out there we must never use the idea of a State in other contexts. The same applies for Bitcoin and CDNs, just because some people use those systems for illegal things it does not mean we should reject them entirely.
 
 ## The Invitation
 
@@ -325,11 +331,7 @@ What we build with these new capabilities will define whether this technology be
 
 ## We've Unlocked New Forms of Coordination
 
-For most of human history, coordination required hierarchy.
-
-Tribes needed chiefs. Societies needed governments. Trade needed banks. Agreements needed courts.
-
-**Because someone had to be the trusted referee.**
+For most of human history, lots of processes requiring coordination also required hierarchy **Because someone had to be the trusted referee.**
 
 CDNs offer an alternative: **Coordination through math, cryptography and incentives that define a social consensus.**
 

@@ -50,6 +50,8 @@ But due to the intrinsic nature of revolutionary technologies, if you don't simp
 
 **You'll see our friend Flami (🦩) when we leave the propaganda machine.**
 
+However, you can already read more reasons on why learning all this in Chapter 20. You will not understand a bit of that chapter without reading all the previous ones, but some main section can be understood now and they might even motivate you to go through the rest of this boring at certain parts book.
+
 ## A Note on Tone
 
 If you're a serious reader and the flamingo and my slightly informal tone bother you, I'm sorry. Most of the real nerds who know this technology deeply are like this.
@@ -57,6 +59,12 @@ If you're a serious reader and the flamingo and my slightly informal tone bother
 Also, I'm 22, born in an era where nothing makes sense, where values are constantly blurred or destroyed, so we enjoy absurdity—like this flamingo: 🦩.
 
 I hope the cultural differences of our generational gap do not play a crucial role in you reading and understanding the actual value encoded in this book.
+
+## A Note on Data Accuracy and AI Usage
+
+The author has multiple projects at the same time, therefore, I tried to offload all the work that this books requires to AI. Some data has been searched and verified by AI, not all numbers presented might be accurate, yet, the concepts, dynamics and ways to understand the technology are.
+
+Most of this book is AI written yet the metaphores, analogies and overall structure came from the author's brain.
 
 ## The Promise
 

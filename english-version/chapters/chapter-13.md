@@ -12,7 +12,7 @@ That on itself is a program, a very simple one that adds and subtracts balances.
 
 What if the database could do more than just track balances? What if it could **run complex programs**?
 
-That is the idea that sparked **Ethereum**—a distributed database that not only tracks balances but also runs programs. These programs are called **smart contracts**.
+That is the idea that sparked **Ethereum**—a distributed database that not only tracks balances but also stores programs. These programs are called **smart contracts**.
 
 ## Bitcoin Recap: Simple Transactions
 
@@ -29,7 +29,7 @@ The network verifies: Does Alice have 10 BTC? Yes. Is the signature valid? Yes. 
 
 **Simple. Clean. Works perfectly for money, or just value in the sense of gold.** Some people argue with very good reasons that Bitcoin is not money in the sense of cash but value in the sense of gold, but that is another debate.
 
-For now just notice what Bitcoin's simple scripting can't easily do. It can't easily say "send money to Bob, but only if some complex condition X happens." It can't hold money until a certain date and then release it to multiple parties if certain conditions are met. It can't program complex logic like loans, subscriptions, or voting systems.
+For now just notice what Bitcoin's simple scripting can't easily do. It can't easily say "send money to Bob, but only if some complex condition X happens." It can't hold money until a certain date and then release it to multiple parties if certain complex conditions are met. It can't program complex logic like loans or voting systems.
 
 Bitcoin moves value from A to B. That's what it was designed for.
 
@@ -51,7 +51,7 @@ Not just "send X to Y," but:
 
 **This is a smart contract.** Not a legal contract (no lawyers involved), and no smartness either, but a program that runs on a CDN and enforces rules automatically.
 
-The smart part depends on who writes it. And the "contract" word might come from the fact you need cryptographic signatures to interact with it—in the "real world" you sign contracts and they enforce things, and here you sign data which allows someone to run code on a database, so it is kinda like a contract.
+The smart part depends on who writes it. And the "contract" word might come from the fact that you need cryptographic signatures to interact with it—in the "real world" you sign contracts and they enforce things, and here you sign data with cryptography which allows someone to run code on a database, so it is kinda like a contract.
 
 The name is a bit weird, but the idea is powerful. What if we could program anything on this database?
 
@@ -65,11 +65,13 @@ You want to take a loan. With a smart contract, you can program it: at date X, i
 
 No banks, no paperwork, no credit checks. Just code enforcing the agreement.
 
-**But wait—how does the program know if you paid on time? How does it know what the real-world data is?**
+But wait **the program can only read data from the database**, therefore, how does the program know what the real-world data is, like the price of your collateral which might be, let's say, a Netflix stock?
 
-Great question. Programs on the database need information from the outside world (like prices, time, delivery confirmations). Who gives this data to the program? Isn't that a centralized trusted party?
+Great question. Programs on the database need information from the outside world (like prices, time, delivery confirmations). Who gives this data to the database so the program can read it? Isn't that a centralized trusted party?
 
-Well, that is a topic for another time. For now, imagine it is possible to reliably put real data into the program in a verifiable and trust-minimized way. If you are curious, research deeper what we call in the industry **oracles**—the most famous is Chainlink. The main idea of these oracle protocols is that they put data into the CDN from the real world, like price feeds, weather data, sports results, etc., in a verifiable and trust-minimized way.
+Well, it might be, but that is a topic for another time. For now, imagine it is possible to reliably put real data into the program in a verifiable and trust-minimized way with economic incentives and game theory as we have been doing.
+
+If you are curious, research deeper what we call in the industry **oracles**—the most famous is Chainlink. The main idea of these oracle protocols is that they put data into the CDN from the real world, like price feeds, weather data, sports results, etc., in a verifiable and trust-minimized way.
 
 ### Example 2: Will (Inheriting Bits)
 
@@ -105,11 +107,11 @@ Contract: Subscription Service
 
 **You control when to cancel. The service provider can't take more than agreed. The rules are transparent and automatic.**
 
-And there are no fees to all these middlemen that make credit cards work on the internet—just the fees of running the program on the CDN, which can be less. Traditional credit card processing fees range from 2-3% per transaction, while CDN transaction fees can be a fraction of a cent to a few dollars depending on network congestion—often significantly cheaper. [FACT CHECK: "2-3% credit card fees" and "fraction of a cent to few dollars CDN fees" - these ranges should be verified against current data]
+And there are no fees to all these middlemen that make credit cards work on the internet—just the fees of running the program on the CDN (Consensus Database Network like Ethereum), which can be less. Traditional credit card processing fees range from **2–3% per transaction** for merchants, while transaction fees on decentralized datasync technologies depend on network congestion—ranging from fractions of a cent to a few dollars, often significantly cheaper than credit card fees for many use cases.
 
 ## The Ethereum Virtual Machine (EVM): Everyone Runs the Same Programs
 
-Here's the magic: **Every node in the Ethereum network runs these smart contracts.** Look, the previous phrase is full of weird words you would have not understood before reading this book. I hope you can see the progress you are making and the actual complexity on all these new datasync technologies.
+Here's the magic: **Every node in the Ethereum network runs these smart contracts.** Look, the previous phrase is full of weird words you would have not understood before reading this book. I hope you can see the progress you are making and the actual complexity on all these new decentralized datasync technologies.
 
 Remember from Bitcoin: Every node has a copy of the database, and when a transaction happens, every node verifies it and updates their copy.
 
@@ -130,6 +132,8 @@ They look a bit different because of different hashing and encoding schemes, but
 
 Different formats, same underlying cryptographic principles.
 
+The addresses shown were made up for illustration.
+
 ### How It Works:
 
 1. You write a smart contract (in a programming language like Solidity).
@@ -147,9 +151,9 @@ If Alice sends the loan contract a "pay back loan" transaction, every node runs 
 
 **Everyone agrees on the computation, just like they agree on the balances.**
 
-You cannot just not run a program, because it is stored in the database. If you try to censor a program, or run it differently, the next iteration of the database you produce (the next block) will be rejected by everyone else because your results (the data in the database) will not match theirs.
+You can't just not run a program, because it is stored in the database. If you try to censor a program, or run it differently, the next iteration of the database you produce (the next block) will be rejected by everyone else because your results (the data in the database) will not match theirs.
 
-Altering the code to censor programs would require altering the code that creates the consensus, so if you do so, you are basically creating a completely new network—one where you will be alone, and useless.
+Hence, altering the code to censor programs would require altering the code that creates the consensus, so if you do so, you are basically creating a completely new network—one where you will be alone, and useless.
 
 ## Why This Is Revolutionary Innovation: Unstoppable Programs
 
@@ -195,7 +199,7 @@ Think about the possibilities:
 
 **The possibilities are vast.** Banks, insurance, voting systems, supply chains, identity management—anything that involves rules, agreements, and trust can potentially be programmed on a CDN.
 
-**Ethereum is a consensual computing machine.** Thousands of people agreeing on what programs to run on their precious information, or money.
+**Ethereum is a consensual computing machine.** Thousands of people agreeing on what programs to run on their precious information, which can represent and mean anything, because we interpret it.
 
 **But there are catches.**
 
@@ -203,7 +207,7 @@ Think about the possibilities:
 
 ### 1. You Have to Pay for It
 
-The execution cost at the end of the day is electricity, remember. Every node runs the program, consuming computational power.
+The execution cost of the program, at the end of the day, is electricity, remember. Every node runs the program, consuming computational power.
 
 Some companies might allow you to use their centralized computers for free because they sell your data and "private" information—but in a decentralized computer, everyone has to pay their fair share of the electricity cost so the model is sustainable.
 
@@ -211,13 +215,13 @@ Furthermore, when you deploy a program, that literally occupies some transistors
 
 Is this expensive? Can anyone afford it? We will answer these questions later.
 
-For now, just understand: **computation on CDNs costs money.** This is by design. These costs are usually called gas costs. Why gas? I do not know. Maybe because gas powers cars and computation powers computers? I don't care, this industry already has so many weird names, forgive me if I do not question this one.
+For now, just understand: **computation on CDNs costs money.** This is by design. These costs are usually called **gas** costs. Why gas? I do not know. Maybe because gas powers cars and computation powers computers? I don't care, this industry already has so many weird names, forgive me if I do not question this one.
 
 By the way, there is an extra reason to pay the more you consume. Imagine you tell the network to run a program that never ends—voila, you hacked the network, now nothing else can execute because everyone is busy running your infinite loop. Well, that now becomes economically impossible. The more computation you use the more you pay, so to compute forever you would need to pay forever... infinite money? Impossible.
 
 ### 2. You can build anything! Wait... anything?
 
-With all these datasync technologies, you can build:
+With all these decentralized datasync technologies, you can build:
 - **Decentralized exchanges (DEXs):** Trade currencies with people around the world without a bank in between. It's like a stock exchange, but run by code instead of a corporation.
 - **Decentralized banking:** Borrow and lend money without a traditional bank. Just smart contracts enforcing the terms for everyone, everywhere.
 - **DAOs (Decentralized Autonomous Organizations):** Organizations run by code and votes and not needing always a board of directors approval. Think of it like a company where shareholders automatically control stuff like budget through transparent voting.
@@ -228,13 +232,13 @@ And many more new possibilities, these are just a few.
 
 Some of these are useful. Some are hype. Some are experiments. Some are of devious ethics. But the **capability** is now real.
 
-### 3. Code Can Have Bugs (errors in the code)
+### 3. Code Can Have Bugs (bugs means errors in the code)
 
 The code can get hacked if you do not code it properly. You leave your loan with a bug that can accidentally multiply by 10 what you owe? You are in trouble.
 
 Even if the CDN works perfectly, the code you write on top of it can have bugs. So be careful which programs you run.
 
-Some errors in the code (bugs) might remain dormant for a long time, until someone discovers them and exploits them. This has happened multiple times already, with millions of dollars lost. [FACT CHECK: "millions of dollars lost" - specific major hacks like The DAO (~$60M in 2016) should be verified]
+Some errors in the code (bugs) might remain dormant for a long time, until someone discovers them and exploits them. This has happened multiple times already, with millions of dollars lost—notably, The DAO hack in June 2016 resulted in the loss of about 3.6 million ETH (roughly $60M at 2016 prices). Total crypto hacks in recent years have reached into the billions per year.
 
 Fortunately, the security of the codes being used is improving year after year, but this risk is still present. The chances of it affecting you get reduced, but they will never be zero.
 
@@ -244,7 +248,7 @@ Slowly but surely, the chances of you losing your money because of these reasons
 
 It will feel like hiring a life insurance being 25 years old just in case a lightning hits you. It is very unlikely, but if it happens you want to be covered.
 
-As of today when I'm writing this, December 16th, 2024, it is very risky. [FACT CHECK: Date should be verified as accurate at publication]
+As of today when I'm writing this, December 16th, 2024, it is very risky, the author would not put all his savings/investments into any single cryptocurrency due to potential security issues.
 
 ### 4. The Devil Is In The Details I'm Hiding For Simplicity.
 
@@ -256,7 +260,7 @@ At least, with the knowledge you will get from this book, you will be better equ
 
 As you might have noticed, I've described some use cases that are a bit... morally gray. Gambling, unregulated loans, corrupted elections, etc.
 
-As with any new technology, there are both good and bad uses. Some people will use CDNs for innovation and freedom. Others might use it for scams, fraud, to evade legitimate regulations or to create illegitimate ones.
+As with any new technology, there are both good and bad uses. Some people will use CDNs for innovation and liberty. Others might use it for scams, fraud, to evade legitimate regulations or to create illegitimate ones.
 
 This is why you must understand the technology. To make sure you use it for "the betterment of the world" and not let someone else use it to abuse you.
 
@@ -288,15 +292,15 @@ Ethereum: "We all agree this program should send funds to Bob because the condit
 
 ## But Ethereum Started with Proof-of-Work. Then Something Changed...
 
-When Ethereum launched in 2015, it used the same consensus mechanism as Bitcoin: **Proof-of-Work.** Miners solved computational puzzles, burned electricity, earned rewards. [FACT CHECK: Ethereum launch year 2015 - verify exact launch date]
+When Ethereum launched on **July 30, 2015**, it used the same consensus mechanism as Bitcoin: **Proof-of-Work.** Miners solved computational puzzles, burned electricity, earned rewards.
 
-But in September 2022, Ethereum did something unprecedented: **It switched consensus mechanisms.** That event was called: [FACT CHECK: "September 2022" for The Merge - verify exact date]
+But on **September 15, 2022**, Ethereum did something unprecedented: **It switched consensus mechanisms.** That event was called:
 
 **The Merge:** Ethereum transitioned from Proof-of-Work to **Proof-of-Stake.**
 
 No more mining. No more burning electricity. A completely different way to achieve consensus.
 
-**Why?** One major reason: Proof-of-Stake consumes way less electricity (about 99.95% less). [FACT CHECK: "99.95% less" electricity - this figure has been widely cited but should be verified against Ethereum Foundation sources]
+**Why?** One major reason: Proof-of-Stake consumes way less electricity (about 99.95% less).
 
 **Here's the key insight:** This is consensus. If people (nodes) want a different algorithm, they can just agree and change it.
 

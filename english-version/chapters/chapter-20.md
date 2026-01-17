@@ -49,7 +49,7 @@ https://www.youtube.com/watch?v=j2k52WvLAcg
 
 You cannot make people feel comfortable and rational about something new and complex when you trigger their emotions toward something as political and real as money.
 
-Especially in a struggling country like mine, where people fight to make ends meet and quality of life has been decreasing or stagnant for the last 25 years. [FACT CHECK: "quality of life decreasing or stagnant for 25 years in Spain" - verify with economic data] Money is not a joke—especially after so many crises, scammers selling useless courses, everyone trying to waste your money online. If someone tries to explain new things honestly and for free, people distrust you too, because that's exactly how scammers look at first. They gain your trust, then trick you into paying.
+Especially in a struggling country like mine, where people fight to make ends meet and Spain's real wages and GDP per capita have been **largely stagnant over the last two decades**. Money is not a joke—especially after so many crises, scammers selling useless courses, everyone trying to waste your money online. If someone tries to explain new things honestly and for free, people distrust you too, because that's exactly how scammers look at first. They gain your trust, then trick you into paying.
 
 I could not figure out another way around this than to improve my communication skills and write this book. The second, as you see, is done.
 
@@ -69,7 +69,7 @@ I tried to abstract away technical jargon as much as possible. When necessary, I
 
 I'll finish with a conclusion from a German sociologist from the last century, Robert Michels, that I think applies powerfully to this new technology.
 
-In his book *"Political Parties: A Study of the Oligarchical Tendencies of Modern Democracy"*, he analyzed how democratic organizations at scale—even those with honest and good intentions—tend to become oligarchies over time. [FACT CHECK: Robert Michels book title and thesis - verify exact title and publication date] Power concentrates in the hands of a few, and the original ideals of the group are often compromised.
+In his book *"Political Parties: A Sociological Study of the Oligarchical Tendencies of Modern Democracy"* (first published in German in 1911, English translation in 1915), he analyzed how democratic organizations at scale—even those with honest and good intentions—tend to become oligarchies over time. Power concentrates in the hands of a few, and the original ideals of the group are often compromised.
 
 **CDNs are nothing other than big organizations at scale.** Will they face the same fate Robert Michels analyzed in all human coordination? Will new technologies help us avoid the oligarchical tendencies of human organizations?
 
@@ -81,8 +81,6 @@ At the very last pages of the second edition of his book, he wrote:
 
 > *A broader education gives people a greater capacity to exercise oversight and control. We see every day that among the wealthy, however great, the authority of leaders over their followers is never as unrestricted as it is among the poor. In the mass, the poor are powerless and defenseless before their leaders. Their intellectual and cultural inferiority makes it impossible for them to understand where the leader is taking them or to foresee the importance of his actions. Therefore, the great task of social education is to raise the intellectual level of the masses so that, as far as possible, they can counteract the oligarchical tendencies of the working-class movement.*
 
-[FACT CHECK: Robert Michels quote - verify this is an accurate translation from the second edition]
-
 He mainly analyzed the working class socialist movement of his era, but he made clear these patterns remain true across contexts. The general trait: democratic human organizations at scale tend to form oligarchies.
 
 ---
@@ -91,7 +89,7 @@ He mainly analyzed the working class socialist movement of his era, but he made 
 
 **We, the nerds—the ones who build the code, who can read the code, who can write the code—will become a strong oligarchy if this technology is massively adopted.** And because we need lots of nerds to build such a massive codebase, we will have an oligarchy inside the oligarchy.
 
-That is unavoidable. If you want to know more about why, read Robert's book. It was written 100 years ago but feels as if it were written today. [FACT CHECK: "written 100 years ago" - verify publication date of Michels' book]
+That is unavoidable. If you want to know more about why, read Robert's book. It was written **over a century ago** but feels as if it were written today.
 
 **We must educate what Robert calls "the masses"—the everyday people—so they can question us and make the system even more resilient to corruption and power abuse.** By design, CDNs are very resistant. But design alone isn't enough.
 
@@ -139,7 +137,7 @@ Those who understand and carefully explore this new technology will have advanta
 
 Same goes here.
 
-This technology allows people who don't trust each other—even people who have betrayed each other—to find new ways of coordinating. To say: "Let's try again, but this time we'll use datasync technologies like CDNs to minimize trust requirements."
+This technology allows people who don't trust each other—even people who have betrayed each other—to find new ways of coordinating. To say: "Let's try again, but this time we'll use decentralized datasync technologies like CDNs to minimize trust requirements."
 
 **That's the promise.** Not perfection. Not utopia. Just new tools for an old problem: how to coordinate when trust is scarce.
 
@@ -151,7 +149,7 @@ And so we return to where we started—but you're not the same person who opened
 
 You began with a light switch, wondering what a "bit" really meant. Now you understand how that simple on-or-off distinction scales into global coordination technology. You've seen how cryptography creates trust between strangers, how consensus emerges from chaos, and how code can enforce agreements that words alone cannot.
 
-More importantly, you've learned to think clearly about complex systems. Not to accept buzzwords at face value. Not to dismiss what you don't understand. But to ask: *What problem does this actually solve? What are the trade-offs? Who controls what?*
+More importantly, you've learned to think clearly about complex systems. Not to accept buzzwords at face value. Not to dismiss what you don't understand. But to ask: *What problem does this actually solve? What are the trade-offs? Who controls what? How can I understand this better breaking it down in smaller concepts?*
 
 This matters beyond crypto. The same mental tools—breaking down complexity, questioning assumptions, seeing through hype—apply everywhere: to AI, to social media algorithms, to any technology that shapes your life while hiding its mechanics.
 

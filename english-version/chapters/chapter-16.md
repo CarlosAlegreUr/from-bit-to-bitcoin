@@ -14,7 +14,7 @@ For most of human history, the answer seemed obvious: **No. If you want to prove
 
 It really seems impossible, feels like magic, even illogical. But it's just math. Think about it for another second: how can I show you I'm over 18 while revealing nothing else? How can I say "Hey, I am over 18" and then, without you needing to believe me, you simply KNOW I am? It's crazy, and therefore, fascinating.
 
-In the 1980s, mathematicians discovered something shocking: **You can prove you know something without revealing what you know.** [FACT CHECK: "1985" paper publication - verify exact year for Goldwasser/Micali/Rackoff]
+In the 1980s (in **1985** specifically), mathematicians discovered something shocking: **You can prove you know something without revealing what you know.**
 
 This is called a **Zero-Knowledge Proof (ZKP)**. The name pretty much describes exactly what it does: proving stuff while revealing zero knowledge about it.
 
@@ -28,7 +28,7 @@ A Zero-Knowledge Proof is a way for one person (the prover) to convince another 
 - **Traditional proof:** Type the password -> Verifier sees the password.
 - **Zero-Knowledge proof:** Run a mathematical protocol -> Verifier is convinced you know the password, but learns nothing about what the password is.
 
-**The verifier learns ONLY that the statement is true. Nothing else.**
+**The verifier learns ONLY that the statement "I know the password" is true. Nothing else.**
 
 ## A Simple And Classic Analogy: The Colorblind Friend
 
@@ -45,7 +45,7 @@ Here's how:
 
 **Repeat this 20 times.**
 
-If you answer correctly every time, your colorblind friend becomes convinced: "The probability of you guessing correctly 20 times in a row by chance is 1 in 1,048,576. You must actually see a difference in the colors." [FACT CHECK: "1 in 1,048,576" probability calculation - verify 2^20]
+If you answer correctly every time, your colorblind friend becomes convinced: "The probability of you guessing correctly 20 times in a row by chance is 1 in 1,048,576. You must actually see a difference in the colors."
 
 **You've proven the balls are different colors without ever saying which one is red or green.**
 
@@ -64,7 +64,7 @@ This was shocking. Most people assumed: "To prove something, you must reveal it.
 **Remember how we got digital identities in Chapter 6?** We used **one-way functions**—mathematical operations that are easy to compute in one direction but nearly impossible to reverse:
 
 - Easy: hash("password123") = d3f8e9...
-- Hard: d3f8e9... = ??? (reverse it)
+- Hard: d3f8e9... = hash("???") (reverse it)
 
 **Zero-Knowledge Proofs use even more advanced mathematics.** The math behind ZKPs is taught in advanced university courses (graduate-level cryptography), PhD programs in mathematics and computer science, and specialized research labs.
 
@@ -86,7 +86,7 @@ If you're curious and want to understand the full technical details, here's what
 
 **But honestly, this would require another entire book, or books.**
 
-The math is extremely complex—even most computer scientists don't fully understand all the details. But again, the more people who understand this technology, the more decentralized and stronger the system becomes, so I encourage you to learn all of the above if you feel like it.
+The math is extremely complex—even most computer scientists don't fully understand all the details. But again, the more people who understand this technology, the more decentralized and stronger the system becomes, so I encourage you to learn all of the above if you feel like it. It will take you some years if you have no background.
 
 **What matters for this book is understanding what Zero-Knowledge Proofs can do, not really how they do it.**
 
@@ -258,9 +258,9 @@ Generating Zero-Knowledge Proofs quickly requires significant computational powe
 
 **But they're improving rapidly.**
 
-New ZKP systems (zk-SNARKs, zk-STARKs, Plonky2, and more) are making proofs smaller, faster, and easier to generate. [FACT CHECK: "zk-SNARKs, zk-STARKs, Plonky2" as current systems - verify these are accurate examples]
+New ZKP systems (zk-SNARKs, zk-STARKs, Plonky2, and more) are making proofs smaller, faster, and easier to generate.
 
-What took minutes in 2015 now takes seconds in 2025. What takes seconds today might take milliseconds in 2030. [FACT CHECK: "What took minutes in 2015 now takes seconds in 2025" - verify performance improvements]
+What took minutes in 2015 now takes seconds in 2025 in many cases. What takes seconds today might take milliseconds in 2030.
 
 **Performance is improving exponentially.**
 
@@ -296,7 +296,7 @@ Zero-Knowledge Proofs are still:
 - **Slow:** Computationally expensive.
 - **New:** Not yet widely understood or adopted.
 
-Most CDN systems today do NOT use ZKPs. Bitcoin doesn't. Ethereum's main chain doesn't (though Layer 2s are starting to).
+Most CDN systems today do NOT use ZKPs. Bitcoin doesn't. Ethereum's main chain doesn't (though Layer 2s are starting to). However, Ethereum is actively exploring ZKPs for scalability and privacy, recently in early 2026, Vitalik, the inventor of Ethereum said they solved the blockchain trilemma using ZKPs and now it is just a matter of writing the code in a very safe way.
 
 **Why?** Because they're hard to implement, slower than regular transactions, and the technology is still maturing.
 

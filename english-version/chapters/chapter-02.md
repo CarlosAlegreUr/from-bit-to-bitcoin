@@ -45,7 +45,7 @@ In the 1960s, a group of people sat in a room and made a decision. They decided:
 
 They could have chosen any numbers. They could have made 'A' equal to 200, or 7, or 42, or 43, 69 even, if they woke up horny. It was arbitrary. But once they agreed and wrote it down, it became a **standard**.
 
-[FACT CHECK: ASCII was developed in the 1960s - verify exact year (commonly cited as 1963)]
+ASCII was first standardized in **1963**, with revised versions following in 1967 and 1968.
 
 Here's a tiny slice of the ASCII table:
 
