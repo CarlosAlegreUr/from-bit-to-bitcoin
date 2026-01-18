@@ -9,11 +9,13 @@
 ## 🇬🇧 English Version
 
 <details>
-<summary><strong>📖 Click to expand/collapse</strong></summary>
+<summary><strong>📖 Click here to see</strong></summary>
 
 <br>
 
-### [Click here to see the PDF 📜](./english-version/from-bit-to-bitcoin-english.pdf) 
+### [Click here to see the PDF 📜](https://drive.google.com/file/d/1y0qdJdD_FYmyhmpdVsWpnuu43VvTh_iu/view?usp=sharing)
+
+You can read the book by accessing the pdf above, you can also download the pdf through [clicking here](./english-version/from-bit-to-bitcoin-english.pdf) or read the book directly on this page starting at chapter 0️⃣: [click here](./english-version/chapters/chapter-00.md) to go to chapter 0️⃣.
 
 <p align="center">
   <img src="./images/bookcover.png" alt="Book Cover" width="500">
@@ -90,13 +92,15 @@ To understand and benefit from this new technology you don't need a computer sci
 ## 🇪🇸 Versión en Español
 
 <details>
-<summary><strong>📖 Clica para expandir/colapsar</strong></summary>
+<summary><strong>📖 Clica aquí para ver </strong></summary>
 
 > ⚠️ **Aviso:** La versión en español ha sido traducida automáticamente por inteligencia artificial. Quizá algunas frases no suenen del todo naturales pero sí deberían ser comprensibles.
 
 <br>
 
-### [Clica aquí para ver el PDF 📜](./spanish-version/from-bit-to-bitcoin-spanish.pdf)
+### [Clica aquí para ver el PDF 📜](https://drive.google.com/file/d/1ySp9szHn_Yzjj75f8N-YO9IhxLvHgmNw/view?usp=sharing)
+
+Puedes leer el libro accediendo al pdf de arriba, también puedes descargar el pdf haciendo [clic aquí](./spanish-version/de-bit-a-bitcoin-espanol.pdf) o leer el libro directamente en esta página empezando en el capítulo 0️⃣: [clic aquí](./spanish-version/capitulos/capitulo-00.md) para ir al capítulo 0️⃣.
 
 <p align="center">
   <img src="./images/portadalibro.png" alt="Book Cover" width="500">
