@@ -1,6 +1,6 @@
 # From Bit to Bitcoin - 0️⃣1️⃣ 🌐 1️⃣0️⃣
 
-> A first-principles journey from binary to blockchain
+> A first-principles journey to intuitively understand blockchain.
 
 **21 Chapters** | **Beginner Friendly** | **No Math Required** ✨
 
@@ -18,7 +18,7 @@
 You can read the book by accessing the pdf above, you can also download the pdf through [clicking here](./english-version/from-bit-to-bitcoin-english.pdf) or read the book directly on this page starting at chapter 0️⃣: [click here](./english-version/chapters/chapter-00.md) to go to chapter 0️⃣.
 
 <p align="center">
-  <img src="./images/bookcover.png" alt="Book Cover" width="500">
+  <img src="./images/bookcover.png" alt="Book Cover" width="250">
 </p>
 
 Intuitively understanding Bitcoin and blockchain from first principles. Demystifying the complex jargon and concepts surrounding blockchain technology.
@@ -103,7 +103,7 @@ To understand and benefit from this new technology you don't need a computer sci
 Puedes leer el libro accediendo al pdf de arriba, también puedes descargar el pdf haciendo [clic aquí](./spanish-version/de-bit-a-bitcoin-espanol.pdf) o leer el libro directamente en esta página empezando en el capítulo 0️⃣: [clic aquí](./spanish-version/capitulos/capitulo-00.md) para ir al capítulo 0️⃣.
 
 <p align="center">
-  <img src="./images/portadalibro.png" alt="Book Cover" width="500">
+  <img src="./images/portadalibro.png" alt="Book Cover" width="250">
 </p>
 
 Entendiendo intuitivamente Bitcoin y blockchain desde los primeros principios. Desmitificando la jerga compleja y los conceptos que rodean la tecnología blockchain.
