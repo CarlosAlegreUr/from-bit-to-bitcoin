@@ -100,7 +100,7 @@ To understand and benefit from this new technology you don't need a computer sci
 
 ### [Clica aquí para ver el PDF 📜](https://drive.google.com/file/d/1ySp9szHn_Yzjj75f8N-YO9IhxLvHgmNw/view?usp=sharing)
 
-Puedes leer el libro accediendo al pdf de arriba, también puedes descargar el pdf haciendo [clic aquí](./spanish-version/de-bit-a-bitcoin-espanol.pdf) o leer el libro directamente en esta página empezando en el capítulo 0️⃣: [clic aquí](./spanish-version/capitulos/capitulo-00.md) para ir al capítulo 0️⃣.
+Puedes leer el libro accediendo al pdf de arriba, también puedes descargar el pdf haciendo [clic aquí](./spanish-version/from-bit-to-bitcoin-spanish.pdf) o leer el libro directamente en esta página empezando en el capítulo 0️⃣: [clic aquí](./spanish-version/capitulos/capitulo-00.md) para ir al capítulo 0️⃣.
 
 <p align="center">
   <img src="./images/portadalibro.png" alt="Book Cover" width="250">
