@@ -38,7 +38,7 @@ So I've taken the role of a "crypto" enthusiast to keep you engaged. The **techn
 
 **Chapter 18 will demolish this propaganda with a comprehensive reality check.**
 
-![Breaking Ball](image-1.png)
+![Breaking Ball](../../images/image-1.png)
 
 You'll get the dream first. Then you'll get the reality. And by understanding both, you'll be able to form your own informed opinion.
 

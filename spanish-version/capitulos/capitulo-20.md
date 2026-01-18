@@ -6,7 +6,7 @@
 
 Lo lograste, felicidades. :)
 
-Diecinueve capítulos. De bit a Bitcoin. De interruptores de luz a tecnología de coordinación global.
+Diecinueve capítulos. Del bit al Bitcoin. De interruptores de luz a tecnología de coordinación global.
 
 Gracias por confiar en mí para guiarte a través de este viaje.
 
@@ -143,7 +143,7 @@ Esta tecnología permite a personas que no confían entre sí—incluso personas
 
 ---
 
-## De Bit a Bitcoin
+## Del Bit al Bitcoin
 
 Y así regresamos a donde comenzamos—pero no eres la misma persona que abrió este libro.
 

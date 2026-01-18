@@ -142,7 +142,7 @@ Validators are the analogous to miners in the CDN of Ethereum. They do a thing c
 
 - ☯️ **Yang:** ETH is just another CDN, not Bitcoin—so again this doesn't condemn the entire field. To defend ETH specifically: Lido is a way to *aggregate* individual stakers' ETH—similar to mining pools but actually easier to leave. Individuals stake *through* Lido; they can withdraw and switch to other providers like Rocketpool. Developing staking software for Ethereum is relatively cheap, and moving funds around for this use case is absurdly cheap onchain. The Ethereum community actively advertises decentralization and warns when certain clients or staking platforms become too dominant—the community cares and responds. People who stake already demonstrate high knowledge and care—they're more likely to act responsibly. The ecosystem is self-correcting through social pressure and education.
 
-![Ethereum client diversity warning](diversity.png)
+![Ethereum client diversity warning](../../images/diversity.png)
 
 In the image above we can see how a software that runs Ethereum, Lighthouse, is becoming too predominant and there are warnings to stop using it as much. As a curious fact, the author works for the very same compnay that develops the Lighthouse software.
 
@@ -619,7 +619,7 @@ Welcome to the other side of the breaking ball.
 
 **🦩 — Yours Faithfully, Flami, the realistic flamingo.**
 
-![alt text](flamicoins.png)
+![Flami posing for you](../../images/flamicoins.png)
 
 ---
 

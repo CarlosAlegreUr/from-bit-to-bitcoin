@@ -10,7 +10,7 @@ Pero aquí está el problema: **El Internet es una red pública.**
 
 Si visualizas los ordenadores conectados entre sí con líneas, parece una red:
 
-![internet](image.png)
+![internet](../../images/image.png)
 
 Cuando envías datos a través del Internet, no viajan directamente de tu ordenador al destino. En su lugar, saltan a través de docenas de ordenadores intermedios—enrutadores, conmutadores, servidores—cada uno reenviando tu paquete más cerca de su destino.
 

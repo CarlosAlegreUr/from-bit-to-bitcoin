@@ -10,7 +10,7 @@ But here's the problem: **The Internet is a public network.**
 
 If you visualize the computers connected to each other with lines, it looks like a net:
 
-![internet](image.png)
+![internet](../../images/image.png)
 
 When you send data across the Internet, it doesn't travel directly from your computer to the destination. Instead, it hops through dozens of intermediate computers—routers, switches, servers—each one forwarding your packet closer to its destination.
 

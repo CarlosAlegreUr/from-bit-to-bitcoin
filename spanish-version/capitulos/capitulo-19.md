@@ -1,4 +1,4 @@
-# Capítulo 19: De Bit a Bitcoin - Resumen Final
+# Capítulo 19: Del Bit al Bitcoin - Resumen Final
 
 *Capítulo "mira qué lejos has llegado".*
 
@@ -311,7 +311,7 @@ Y eso es importante, porque ahora *intuitivamente* entiendes. Ya no tanto de una
 
 Esta es educación verdadera.
 
-## De Bit a Bitcoin
+## Del Bit al Bitcoin
 
 Cerremos el círculo.
 
@@ -327,7 +327,7 @@ Desde ahí, construimos:
 - **Filosofía:** Lo que esto significa para la humanidad (Capítulo 17).
 - **Control de realidad:** El diablo está en los detalles (Capítulo 18).
 
-**De bit a Bitcoin.**
+**Del bit al Bitcoin.**
 
 De matemáticas a significado.
 
@@ -345,6 +345,6 @@ Ese es el viaje. Ese es el logro. Cualquier cosa puede aprenderse si se descompo
 
 ---
 
-**Idea Clave:** Has llegado tan lejos. De un solo bit a entender tecnología de coordinación global. Aprendiste desde primeros principios—sin atajos, sin jerga vacía. Ahora entiendes cómo los extraños coordinan sin confianza, por qué blockchain hace la tiranía auditable, por qué el valor es consensual, por qué esto importa para el poder, y por qué la tecnología no es magia. Puedes explicar Bitcoin claramente, criticar el hype inteligentemente, evaluar proyectos, y participar informado. Te GANASTE este entendimiento. De bit a Bitcoin. De matemáticas a significado. De código a consenso. Ahora lo entiendes todo.
+**Idea Clave:** Has llegado tan lejos. De un solo bit a entender tecnología de coordinación global. Aprendiste desde primeros principios—sin atajos, sin jerga vacía. Ahora entiendes cómo los extraños coordinan sin confianza, por qué blockchain hace la tiranía auditable, por qué el valor es consensual, por qué esto importa para el poder, y por qué la tecnología no es magia. Puedes explicar Bitcoin claramente, criticar el hype inteligentemente, evaluar proyectos, y participar informado. Te GANASTE este entendimiento. Del bit al Bitcoin. De matemáticas a significado. De código a consenso. Ahora lo entiendes todo.
 
 Queda un capítulo más: una carta personal de mí para ti sobre por qué esto importa, qué espero que te lleves, y qué viene después. Nos vemos ahí.

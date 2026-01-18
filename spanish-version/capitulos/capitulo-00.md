@@ -38,7 +38,7 @@ Así que he tomado el rol de un entusiasta "cripto" para mantenerte comprometido
 
 **El Capítulo 18 demolerá esta propaganda con una comprobación exhaustiva de la realidad.**
 
-![Bola de demolición](image-1.png)
+![Bola de demolición](../../images/image-1.png)
 
 Obtendrás el sueño primero. Luego obtendrás la realidad. Y al entender ambos, podrás formar tu propia opinión informada.
 

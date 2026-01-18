@@ -140,7 +140,7 @@ Los validadores son el análogo a los mineros en la RBDC de Ethereum. Hacen algo
 
 - ☯️ **Yang:** ETH es solo otra RBDC, no Bitcoin—así que de nuevo esto no condena todo el campo. Para defender a ETH específicamente: Lido es una forma de *agregar* el ETH de stakers individuales—similar a los pools de minería pero en realidad más fácil de abandonar. Los individuos hacen staking *a través de* Lido; pueden retirar y cambiar a otros proveedores como Rocketpool. Desarrollar software de staking para Ethereum es relativamente barato, y mover fondos para este caso de uso es absurdamente barato onchain. La comunidad de Ethereum anuncia activamente la descentralización y advierte cuando ciertos clientes o plataformas de staking se vuelven demasiado dominantes—la comunidad se preocupa y responde. Las personas que hacen staking ya demuestran alto conocimiento y cuidado—es más probable que actúen responsablemente. El ecosistema se autocorrige a través de presión social y educación.
 
-![Advertencia de diversidad de clientes de Ethereum](diversity.png)
+![Advertencia de diversidad de clientes de Ethereum](../../images/diversity.png)
 
 En la imagen de arriba podemos ver cómo un software que ejecuta Ethereum, Lighthouse, se está volviendo demasiado predominante y hay advertencias para dejar de usarlo tanto. Como dato curioso, el autor trabaja para la misma empresa que desarrolla el software Lighthouse.
 
@@ -613,7 +613,7 @@ Bienvenido al otro lado de la bola de demolición.
 
 **🦩 — Atentamente, Flami, el flamenco realista.**
 
-![alt text](flamicoins.png)
+![Flami posando para ti](../../images/flamicoins.png)
 
 ---
 

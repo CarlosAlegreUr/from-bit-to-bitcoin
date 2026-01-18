@@ -8,13 +8,15 @@
 
 ## 🇬🇧 English Version
 
-<details open>
+<details>
 <summary><strong>📖 Click to expand/collapse</strong></summary>
 
 <br>
 
+### [Click here to see the PDF 📜](./english-version/from-bit-to-bitcoin-english.pdf) 
+
 <p align="center">
-  <img src="./english-version/bookcover.png" alt="Book Cover" width="500">
+  <img src="./images/bookcover.png" alt="Book Cover" width="500">
 </p>
 
 Intuitively understanding Bitcoin and blockchain from first principles. Demystifying the complex jargon and concepts surrounding blockchain technology.
@@ -94,8 +96,10 @@ To understand and benefit from this new technology you don't need a computer sci
 
 <br>
 
+### [Clica aquí para ver el PDF 📜](./spanish-version/from-bit-to-bitcoin-spanish.pdf)
+
 <p align="center">
-  <img src="./spanish-version/portadalibro.png" alt="Book Cover" width="500">
+  <img src="./images/portadalibro.png" alt="Book Cover" width="500">
 </p>
 
 Entendiendo intuitivamente Bitcoin y blockchain desde los primeros principios. Desmitificando la jerga compleja y los conceptos que rodean la tecnología blockchain.

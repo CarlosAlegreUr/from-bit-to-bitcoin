@@ -79,7 +79,8 @@ code SoyAliceYElNoEstaPagando() {
     enviarDineroDeVueltaAAlice(100$);
     dineroQueDebeAlice = -0$;
 }
-// Este pseudocódigo no resta nada de la deuda, permitiendo retiros infinitos a Alice. ¡Oh no!
+// Este pseudocódigo no resta nada de la deuda,
+// permitiendo retiros infinitos a Alice. ¡Oh no!
 ```
 
 **En el hack de The DAO, el código hizo exactamente lo que estaba programado para hacer.** El atacante simplemente entendió el código mejor que sus creadores y reconoció un error en su programación.

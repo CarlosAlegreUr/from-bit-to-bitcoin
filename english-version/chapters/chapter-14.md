@@ -79,7 +79,8 @@ code IAmAliceAndHeIsNotPayingBack() {
     sendMoneyBackToAlice(100$);
     moneyIOweToAlice = -0$;
 }
-// This pseudo-code subtracts nothing from the debt, allowing infinite withdrawals to Alice. Oh no!
+// This pseudo-code subtracts nothing from the debt,
+// allowing infinite withdrawals to Alice. Oh no!
 ```
 
 **In the DAO hack, the code did exactly what it was programmed to do.** The attacker just understood the code better than its creators and recognized an error in its programming.
